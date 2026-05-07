@@ -524,33 +524,17 @@ class: text-center
 <div class="text-8xl font-extralight">Access</div>
 
 ---
-title: Instant access, scale to zero
+title: Anonymous provisioning, claim later
 layout: image-right
 image: /img/s41_1.png
 backgroundSize: contain
 ---
 
 <div class="flex flex-col h-full justify-center pr-4">
-  <h2 class="!text-3xl !font-light !mb-6">Instant access,<br/>scale to zero.</h2>
-
-  <div class="space-y-3 text-sm">
-    <div v-click class="flex items-start gap-3">
-      <div class="text-xl">⚡</div>
-      <div>Important when we grow to <span class="text-[#4ecdc4] font-semibold">100M developers</span></div>
-    </div>
-    <div v-click class="flex items-start gap-3">
-      <div class="text-xl">📈</div>
-      <div>Lower build cost → <span class="text-[#feca57] font-semibold">orders of magnitude more apps</span></div>
-    </div>
-    <div v-click class="flex items-start gap-3">
-      <div class="text-xl">🧱</div>
-      <div>Composable building blocks for <span class="text-[#ff6b6b] font-semibold">agent-built apps</span></div>
-    </div>
-  </div>
-
-  <div class="mt-6 text-xs opacity-50 italic">
-    instant postgres databases as a library — Bryan Clark
-  </div>
+  <h2 class="!text-3xl !font-light !mb-6">Anonymous provisioning,<br/>claim later</h2>
+  <p class="opacity-80 text-sm leading-relaxed">
+    Remove all friction from sign-up. Let the agents start using your product immediately.
+  </p>
 </div>
 
 ---
@@ -561,13 +545,9 @@ backgroundSize: contain
 ---
 
 <div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">Now in beta</div>
   <h2 class="!text-3xl !font-light !mb-4">Netlify Database</h2>
   <p class="opacity-80 text-sm leading-relaxed">
-    A fully-managed Postgres database, natively integrated into your workspace — with safe DB branching and auto-migrations on Deploy Previews.
-  </p>
-  <p class="opacity-60 text-sm mt-3">
-    Made for full-stack apps, AI-native usage, and the long tail of small projects that should never see a connection pool.
+    Part of moving to a "Batteries included" platform so agents working with Netlify have access to all the primitives they need when building full stack apps. Part of our Agent Experience.
   </p>
 </div>
 
@@ -603,11 +583,11 @@ class: text-center
 <div class="text-8xl font-extralight">Context</div>
 
 ---
-title: Vite docs — UI vs raw
+title: Docs as context
 layout: default
 ---
 
-# Same content, two surfaces
+# Docs as context
 
 <div class="grid grid-cols-2 gap-4 mt-6">
   <div>
@@ -681,15 +661,14 @@ backgroundSize: contain
 
 ---
 title: API surface vs agent surface
-layout: two-cols-header
-class: gap-12
+layout: default
 ---
 
 # API vs MCP — same product, different surfaces
 
-::left::
+<div class="grid grid-cols-2 gap-12 mt-4 items-start">
 
-<div class="rounded-2xl border border-white/10 bg-white/5 p-6 text-center">
+<div v-click class="rounded-2xl border border-white/10 bg-white/5 p-6 text-center">
   <div class="text-xs uppercase tracking-widest opacity-60 mb-2">For humans</div>
   <div class="text-xl font-light mb-2">Netlify API</div>
   <div class="text-6xl font-extralight bg-gradient-to-br from-white to-white/40 bg-clip-text text-transparent">
@@ -699,9 +678,7 @@ class: gap-12
   <img src="/img/s57_1.png" class="rounded-lg border border-white/10 mt-2" />
 </div>
 
-::right::
-
-<div class="rounded-2xl border-2 border-[#4ecdc4]/50 bg-[#4ecdc4]/10 p-6 text-center shadow-2xl shadow-[#4ecdc4]/20">
+<div v-click class="rounded-2xl border-2 border-[#4ecdc4]/50 bg-[#4ecdc4]/10 p-6 text-center shadow-2xl shadow-[#4ecdc4]/20">
   <div class="text-xs uppercase tracking-widest text-[#4ecdc4] mb-2">For agents</div>
   <div class="text-xl font-light mb-2">Netlify MCP</div>
   <div class="text-6xl font-extralight bg-gradient-to-br from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">
@@ -709,6 +686,8 @@ class: gap-12
   </div>
   <div class="text-sm opacity-60 mt-1 mb-3">Tools</div>
   <img src="/img/s58_1.png" class="rounded-lg border border-white/10 mt-2 bg-black" />
+</div>
+
 </div>
 
 ---
@@ -723,43 +702,14 @@ class: text-center
 <!-- Speaking of tools — access, context, tools. -->
 
 ---
-title: Agents can use your product today
+title: Agents are using your product
 layout: default
 ---
 
-# Agents can use your product as a tool today
+# Agents are using your product
 
-<div class="grid grid-cols-2 gap-4 mt-6">
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-4">
-  <div class="text-2xl mb-1">🖥️</div>
-  <div class="font-medium">Computer Use</div>
-  <div class="text-xs opacity-60">Click, scroll, type — like a human</div>
-</div>
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-4">
-  <div class="text-2xl mb-1">⌨️</div>
-  <div class="font-medium">CLI</div>
-  <div class="text-xs opacity-60">Subprocess in, structured out</div>
-</div>
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-4">
-  <div class="text-2xl mb-1">🔌</div>
-  <div class="font-medium">API</div>
-  <div class="text-xs opacity-60">HTTP, but agent-shaped</div>
-</div>
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-4">
-  <div class="text-2xl mb-1">🧩</div>
-  <div class="font-medium">Chrome Extension</div>
-  <div class="text-xs opacity-60">In-browser companion</div>
-</div>
-
-</div>
-
-<div class="mt-4">
-  <img src="/img/s61_1.png" class="rounded-xl border border-white/10 max-h-48 mx-auto" />
-  <div class="text-center text-xs opacity-50 mt-2 italic">Claude Computer Use Demo — agents driving a real browser.</div>
+<div class="flex justify-center mt-8">
+  <img src="/img/s61_1.png" class="rounded-xl border border-white/10 max-h-96" />
 </div>
 
 ---
@@ -778,37 +728,65 @@ class: text-center
 </div>
 
 ---
-title: From DX to AX — three frames
-layout: default
+title: Netlify CLI, great DX
+layout: center
+class: text-center
 ---
 
-# From DX to AX
-
-<div class="text-xs uppercase tracking-[0.3em] opacity-60 mb-4">The Netlify CLI journey, in three frames</div>
-
-<div class="grid grid-cols-3 gap-3">
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-3">
-  <div class="text-xs uppercase tracking-widest opacity-60 mb-1">Frame 1 · DX</div>
-  <div class="text-sm font-medium mb-2">Netlify CLI for humans</div>
-  <img src="/img/s66_1.jpg" class="rounded border border-white/10 aspect-video object-cover bg-black" />
-  <div class="text-xs opacity-60 mt-2">Polished, friendly. Made for human eyes.</div>
+<div class="flex flex-col items-center justify-center h-full">
+  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, great <span class="text-[#4ecdc4] font-medium">DX</span></h2>
+  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
+    <iframe src="https://www.youtube.com/embed/wz3Txat8Y9A" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </div>
 
-<div class="rounded-xl border border-[#feca57]/30 bg-[#feca57]/5 p-3">
-  <div class="text-xs uppercase tracking-widest text-[#feca57] mb-1">Frame 2 · Initial AX</div>
-  <div class="text-sm font-medium mb-2">Claude Code meets CLI</div>
-  <img src="/img/s64_1.jpg" class="rounded border border-white/10 aspect-video object-cover bg-black" />
-  <div class="text-xs opacity-60 mt-2">Agent reads human output. Friction everywhere.</div>
+---
+title: Netlify CLI, great AX?
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full">
+  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, great <span class="text-[#feca57] font-medium">AX?</span></h2>
+  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
+    <iframe src="https://www.youtube.com/embed/XsWu2zgxMr8" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </div>
 
-<div class="rounded-xl border-2 border-[#4ecdc4]/50 bg-[#4ecdc4]/10 p-3 shadow-2xl shadow-[#4ecdc4]/20">
-  <div class="text-xs uppercase tracking-widest text-[#4ecdc4] mb-1">Frame 3 · Current AX</div>
-  <div class="text-sm font-medium mb-2">CLI rebuilt for agents</div>
-  <img src="/img/s67_1.jpg" class="rounded border border-white/10 aspect-video object-cover bg-black" />
-  <div class="text-xs opacity-60 mt-2">Structured output. Agent-aware help.</div>
+---
+title: The Agent Loop
+layout: center
+class: text-center
+---
+
+<div class="flex items-center justify-center h-full">
+  <img src="/img/s38_1.gif" class="rounded-xl border border-white/10 max-h-[420px]" />
 </div>
 
+---
+title: Netlify CLI, still great DX
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full">
+  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, still great <span class="text-[#4ecdc4] font-medium">DX</span></h2>
+  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
+    <iframe src="https://www.youtube.com/embed/oY7hOXZMr9M" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+---
+title: Netlify CLI, great AX
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full">
+  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, great <span class="text-[#4ecdc4] font-medium">AX</span></h2>
+  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
+    <iframe src="https://www.youtube.com/embed/T5aaXgQvGLw" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </div>
 
 ---
@@ -833,7 +811,7 @@ backgroundSize: contain
   <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Linear · Agents</div>
   <h2 class="!text-3xl !font-light !mb-4">Deploy AI teammates<br/>inside Linear.</h2>
   <p class="opacity-70 text-sm">
-    Codegen, ChatPRD, Devin — agents launchable from the issue you're already working on.
+    Devin, Codex, Linear Agent, Netlify Agent Runners.
   </p>
 </div>
 
@@ -850,52 +828,6 @@ backgroundSize: contain
   <p class="opacity-70 text-sm">
     Claude Code · OpenAI Codex · Google Gemini.<br/>
     Same project, same context, your choice of agent.
-  </p>
-</div>
-
----
-title: From Linear to Netlify in one click
-layout: image-right
-image: /img/s71_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Cross-product orchestration</div>
-  <h2 class="!text-3xl !font-light !mb-4">Use Netlify Agent<br/>Runners from Linear.</h2>
-  <p class="opacity-70 text-sm">
-    Copy git branch · Copy as prompt · Open in Netlify Agent Runners.<br/>
-    The hand-off is the product.
-  </p>
-</div>
-
----
-title: Agent runs at a glance
-layout: image-right
-image: /img/s72_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Async agents at work</div>
-  <h2 class="!text-3xl !font-light !mb-4">Agents shipping<br/>in parallel.</h2>
-  <p class="opacity-70 text-sm">
-    A queue of in-flight work, like a small team you can spin up at will.
-  </p>
-</div>
-
----
-title: Inside an agent run
-layout: image-right
-image: /img/s73_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Inside a run</div>
-  <h2 class="!text-3xl !font-light !mb-4">Open the preview.<br/>Open the PR.</h2>
-  <p class="opacity-70 text-sm">
-    Agents that produce reviewable, shippable artifacts. The collaboration loop is human + agent, not human <em>vs</em> agent.
   </p>
 </div>
 
@@ -1020,7 +952,7 @@ layout: center
 </div>
 
 ---
-title: Closing — the road ahead
+title: Closing — The Road Ahead
 layout: image
 image: /img/s80_1.jpg
 backgroundSize: cover
@@ -1029,7 +961,7 @@ backgroundSize: cover
 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 <div class="absolute bottom-12 left-12 z-10 text-white">
   <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">The road ahead</div>
-  <div class="text-4xl font-light max-w-xl">Driverless cars need<br/>a different kind of road.</div>
+  <div class="text-4xl font-light max-w-xl">As agents become autonomous and our whole team become builders, we need to reshape every part of our developer platforms</div>
 </div>
 
 ---
