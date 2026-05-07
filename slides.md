@@ -736,27 +736,25 @@ class: text-center
 ---
 title: Netlify CLI, great DX
 layout: center
-class: text-center
+class: text-center youtube-slide
 ---
 
-<div class="flex flex-col items-center justify-center h-full">
-  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, great <span class="text-[#4ecdc4] font-medium">DX</span></h2>
-  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
-    <iframe src="https://www.youtube.com/embed/wz3Txat8Y9A" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<h1 class="youtube-slide-title">Netlify CLI, great DX</h1>
+
+<div class="youtube-video-frame">
+  <iframe src="https://www.youtube.com/embed/wz3Txat8Y9A?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=wz3Txat8Y9A" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
 title: Netlify CLI, great AX?
 layout: center
-class: text-center
+class: text-center youtube-slide
 ---
 
-<div class="flex flex-col items-center justify-center h-full">
-  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, great <span class="text-[#feca57] font-medium">AX?</span></h2>
-  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
-    <iframe src="https://www.youtube.com/embed/XsWu2zgxMr8" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<h1 class="youtube-slide-title">Netlify CLI, great AX?</h1>
+
+<div class="youtube-video-frame">
+  <iframe src="https://www.youtube.com/embed/XsWu2zgxMr8?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=XsWu2zgxMr8" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
@@ -772,27 +770,25 @@ class: text-center
 ---
 title: Netlify CLI, still great DX
 layout: center
-class: text-center
+class: text-center youtube-slide
 ---
 
-<div class="flex flex-col items-center justify-center h-full">
-  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, still great <span class="text-[#4ecdc4] font-medium">DX</span></h2>
-  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
-    <iframe src="https://www.youtube.com/embed/oY7hOXZMr9M" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<h1 class="youtube-slide-title">Netlify CLI, still great DX</h1>
+
+<div class="youtube-video-frame">
+  <iframe src="https://www.youtube.com/embed/oY7hOXZMr9M?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=oY7hOXZMr9M" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
 title: Netlify CLI, great AX
 layout: center
-class: text-center
+class: text-center youtube-slide
 ---
 
-<div class="flex flex-col items-center justify-center h-full">
-  <h2 class="!text-4xl !font-light !mb-8">Netlify CLI, great <span class="text-[#4ecdc4] font-medium">AX</span></h2>
-  <div class="w-full max-w-5xl aspect-video rounded-xl overflow-hidden border border-white/10">
-    <iframe src="https://www.youtube.com/embed/T5aaXgQvGLw" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<h1 class="youtube-slide-title">Netlify CLI, great AX</h1>
+
+<div class="youtube-video-frame">
+  <iframe src="https://www.youtube.com/embed/T5aaXgQvGLw?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=T5aaXgQvGLw" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
