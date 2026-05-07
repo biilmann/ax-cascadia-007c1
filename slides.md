@@ -302,21 +302,21 @@ layout: center
 
 <div class="grid grid-cols-3 gap-6 max-w-5xl">
 
-<div class="rounded-2xl border border-white/10 p-6 text-center">
+<div v-click class="rounded-2xl border border-white/10 p-6 text-center">
   <div class="text-4xl font-bold text-white mb-2">UX</div>
   <div class="text-xs uppercase tracking-widest opacity-60 mb-4">User Experience</div>
   <div class="text-sm opacity-80 leading-relaxed">Differentiates products from competitors</div>
   <div class="mt-4 text-xs opacity-40">— Don Norman</div>
 </div>
 
-<div class="rounded-2xl border border-white/10 p-6 text-center">
+<div v-click class="rounded-2xl border border-white/10 p-6 text-center">
   <div class="text-4xl font-bold text-white mb-2">DX</div>
   <div class="text-xs uppercase tracking-widest opacity-60 mb-4">Developer Experience</div>
   <div class="text-sm opacity-80 leading-relaxed">Differentiates platforms from competitors</div>
   <div class="mt-4 text-xs opacity-40">— Jeremiah Lee Cohick</div>
 </div>
 
-<div class="rounded-2xl border-2 border-[#4ecdc4]/60 bg-[#4ecdc4]/10 p-6 text-center shadow-2xl shadow-[#4ecdc4]/20">
+<div v-click class="rounded-2xl border-2 border-[#4ecdc4]/60 bg-[#4ecdc4]/10 p-6 text-center shadow-2xl shadow-[#4ecdc4]/20">
   <div class="text-4xl font-bold bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent mb-2">AX</div>
   <div class="text-xs uppercase tracking-widest text-[#4ecdc4] mb-4">Agent Experience</div>
   <div class="text-sm leading-relaxed">Differentiates platforms, products, and digital experiences</div>
@@ -419,6 +419,15 @@ layout: center
 </div>
 
 ---
+title: Quote — Tobin South
+layout: center
+---
+
+<div class="flex justify-center">
+  <img src="/img/tobin-south-tweet.png" class="max-h-[70vh] rounded-xl border-2 border-[#4ecdc4]/50" />
+</div>
+
+---
 title: How to AX?
 layout: center
 class: text-center
@@ -435,48 +444,23 @@ class: text-center
 <!-- Not a feature or a protocol, not MCP. -->
 
 ---
-title: The Agent Loop
-layout: two-cols
-class: gap-8
+title: The Agent Loop — Diagram
+layout: center
+class: text-center
 ---
 
-<div class="flex flex-col justify-center h-full">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">The Agent Loop</div>
-  <h2 class="!text-3xl !font-light !mb-6">What is an agent, really?</h2>
-  <div class="space-y-3">
-    <div class="flex gap-3 items-start">
-      <div class="text-2xl">🧠</div>
-      <div>
-        <div class="font-medium">LLM</div>
-        <div class="text-sm opacity-60">The reasoning engine</div>
-      </div>
-    </div>
-    <div class="flex gap-3 items-start">
-      <div class="text-2xl">🎯</div>
-      <div>
-        <div class="font-medium">Goal + Prompt</div>
-        <div class="text-sm opacity-60">What you want done</div>
-      </div>
-    </div>
-    <div class="flex gap-3 items-start">
-      <div class="text-2xl">🛠️</div>
-      <div>
-        <div class="font-medium">Tools</div>
-        <div class="text-sm opacity-60">How it acts in the world</div>
-      </div>
-    </div>
-  </div>
-  <div class="mt-6 text-sm opacity-60">
-    <span class="text-[#4ecdc4]">think</span> →
-    <span class="text-[#feca57]">act</span> →
-    <span class="text-[#ff6b6b]">observe</span> → repeat
-  </div>
+<div class="flex flex-col items-center justify-center h-full">
+  <img src="/img/agent-loop-diagram.png" class="rounded-xl border border-white/10 max-h-[420px]" />
 </div>
 
-::right::
+---
+title: The Agent Loop
+layout: center
+class: text-center
+---
 
 <div class="flex items-center justify-center h-full">
-  <img src="/img/s38_1.gif" class="rounded-xl border border-white/10 max-h-80" />
+  <img src="/img/s38_1.gif" class="rounded-xl border border-white/10 max-h-[420px]" />
 </div>
 
 ---
@@ -488,7 +472,7 @@ layout: default
 
 <div class="grid grid-cols-2 gap-4 mt-6">
 
-<div class="rounded-xl border border-[#4ecdc4]/30 bg-[#4ecdc4]/5 p-5">
+<div v-click class="rounded-xl border border-[#4ecdc4]/30 bg-[#4ecdc4]/5 p-5">
   <div class="text-[#4ecdc4] text-xs uppercase tracking-widest mb-2">01</div>
   <div class="text-2xl font-medium mb-3">Access</div>
   <ul class="space-y-1 text-sm opacity-80 list-none">
@@ -498,7 +482,7 @@ layout: default
   </ul>
 </div>
 
-<div class="rounded-xl border border-[#feca57]/30 bg-[#feca57]/5 p-5">
+<div v-click class="rounded-xl border border-[#feca57]/30 bg-[#feca57]/5 p-5">
   <div class="text-[#feca57] text-xs uppercase tracking-widest mb-2">02</div>
   <div class="text-2xl font-medium mb-3">Context</div>
   <ul class="space-y-1 text-sm opacity-80 list-none">
@@ -508,7 +492,7 @@ layout: default
   </ul>
 </div>
 
-<div class="rounded-xl border border-[#ff6b6b]/30 bg-[#ff6b6b]/5 p-5">
+<div v-click class="rounded-xl border border-[#ff6b6b]/30 bg-[#ff6b6b]/5 p-5">
   <div class="text-[#ff6b6b] text-xs uppercase tracking-widest mb-2">03</div>
   <div class="text-2xl font-medium mb-3">Tools</div>
   <ul class="space-y-1 text-sm opacity-80 list-none">
@@ -518,7 +502,7 @@ layout: default
   </ul>
 </div>
 
-<div class="rounded-xl border border-[#a78bfa]/30 bg-[#a78bfa]/5 p-5">
+<div v-click class="rounded-xl border border-[#a78bfa]/30 bg-[#a78bfa]/5 p-5">
   <div class="text-[#a78bfa] text-xs uppercase tracking-widest mb-2">04</div>
   <div class="text-2xl font-medium mb-3">Orchestration</div>
   <ul class="space-y-1 text-sm opacity-80 list-none">
@@ -607,119 +591,6 @@ layout: default
 
 <div class="mt-4 text-center text-sm opacity-70">
   One URL. Two responses. The agent gets <code>text/markdown</code> with install commands; the human gets a marketing page.
-</div>
-
----
-title: Database demand has changed
-layout: center
----
-
-<div class="text-center mb-8">
-  <div class="text-4xl font-light">The shape of <span class="text-[#4ecdc4]">database demand</span> has changed.</div>
-  <div class="text-lg opacity-60 mt-3">The unit economics that worked for human-driven apps don't fit anymore.</div>
-</div>
-
-<div class="grid grid-cols-2 gap-4 max-w-4xl mx-auto mt-6">
-
-<div v-click class="rounded-xl border border-[#4ecdc4]/30 bg-[#4ecdc4]/5 p-5">
-  <div class="text-[#4ecdc4] text-xs uppercase tracking-widest mb-2">Volume</div>
-  <div class="text-sm">~10k new databases per day on free tier alone, <span class="font-semibold">growing</span>.</div>
-</div>
-
-<div v-click class="rounded-xl border border-[#feca57]/30 bg-[#feca57]/5 p-5">
-  <div class="text-[#feca57] text-xs uppercase tracking-widest mb-2">Long Tail</div>
-  <div class="text-sm">Most have near-zero activity. A small fraction will scale.</div>
-</div>
-
-<div v-click class="rounded-xl border border-[#ff6b6b]/30 bg-[#ff6b6b]/5 p-5">
-  <div class="text-[#ff6b6b] text-xs uppercase tracking-widest mb-2">AI-Native Usage</div>
-  <div class="text-sm">Agents create branches, mutate schema, throw environments away.</div>
-</div>
-
-<div v-click class="rounded-xl border border-[#a78bfa]/30 bg-[#a78bfa]/5 p-5">
-  <div class="text-[#a78bfa] text-xs uppercase tracking-widest mb-2">Bursty Creation</div>
-  <div class="text-sm">Provisioning bursts must not impact existing tenants.</div>
-</div>
-
-</div>
-
----
-title: The pieces around the database
-layout: default
----
-
-# The pieces around the database matter too
-
-<div class="grid grid-cols-2 gap-4 mt-6">
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-5">
-  <div class="text-[#4ecdc4] text-xs uppercase tracking-widest mb-2">Clear split of responsibilities</div>
-  <div class="text-sm opacity-80">Especially in BYO-account: who manages what, and where the runbook hand-offs live.</div>
-</div>
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-5">
-  <div class="text-[#feca57] text-xs uppercase tracking-widest mb-2">Serverless-friendly access</div>
-  <div class="text-sm opacity-80">A driver / connection model designed for ephemeral functions, not long-lived pools.</div>
-</div>
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-5">
-  <div class="text-[#ff6b6b] text-xs uppercase tracking-widest mb-2">A streamlined off-ramp</div>
-  <div class="text-sm opacity-80">Customers can take ownership — direct AWS contract, or export to any Postgres-compatible service.</div>
-</div>
-
-<div class="rounded-xl border border-white/10 bg-white/5 p-5">
-  <div class="text-[#a78bfa] text-xs uppercase tracking-widest mb-2">Production data anonymization</div>
-  <div class="text-sm opacity-80">Safe agent experimentation against realistic data — without leaking the real thing.</div>
-</div>
-
-</div>
-
----
-title: Viewing the market
-layout: default
----
-
-# Viewing the market
-
-<div class="text-xs uppercase tracking-[0.3em] opacity-60 mb-4">how the players stack up</div>
-
-<div class="space-y-2 text-sm">
-
-<div class="flex gap-3 rounded-lg border-2 border-[#4ecdc4]/50 bg-[#4ecdc4]/10 p-3">
-  <div class="w-32 font-bold text-[#4ecdc4] flex-shrink-0">Neon ★</div>
-  <div class="opacity-90">Launch partner. Best-in-class CoW branching, anonymization, Postgres + extensions. Strong scale-to-zero, good API. No cloud-prem; low margin at scale; some feature overlap.</div>
-</div>
-
-<div class="flex gap-3 rounded-lg border border-white/10 bg-white/5 p-3">
-  <div class="w-32 font-semibold flex-shrink-0">Aurora</div>
-  <div class="opacity-80">Not there with CoW branching. Multi-tenancy clunky for our permissions/API model. Split between scale-to-zero and scale-up — not one coherent story.</div>
-</div>
-
-<div class="flex gap-3 rounded-lg border border-white/10 bg-white/5 p-3">
-  <div class="w-32 font-semibold flex-shrink-0">Planetscale</div>
-  <div class="opacity-80">Great dev tooling, performance, cloud-prem. No scale-to-zero; branching covers schema, not data.</div>
-</div>
-
-<div class="flex gap-3 rounded-lg border border-white/10 bg-white/5 p-3">
-  <div class="w-32 font-semibold flex-shrink-0">Supabase</div>
-  <div class="opacity-80">Compelling for backend-needing teams. For pure DB: lacks CoW branching and true scale-to-zero.</div>
-</div>
-
-<div class="flex gap-3 rounded-lg border border-white/10 bg-white/5 p-3">
-  <div class="w-32 font-semibold flex-shrink-0">Xata</div>
-  <div class="opacity-80">Good on-prem story, possibly better COGS than Neon for us — but branching and scale-to-zero too slow.</div>
-</div>
-
-<div class="flex gap-3 rounded-lg border border-white/10 bg-white/5 p-3">
-  <div class="w-32 font-semibold flex-shrink-0">Turso</div>
-  <div class="opacity-80">Best-in-class scale-to-zero and branching. Not yet robust and battle-tested enough.</div>
-</div>
-
-<div class="flex gap-3 rounded-lg border border-white/10 bg-white/5 p-3">
-  <div class="w-32 font-semibold flex-shrink-0">Tiger / Nile / etc.</div>
-  <div class="opacity-80">No compelling advantage over Neon; more business risk.</div>
-</div>
-
 </div>
 
 ---
