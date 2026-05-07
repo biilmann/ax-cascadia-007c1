@@ -968,21 +968,40 @@ backgroundSize: cover
 
 ---
 title: Thank you
-layout: cover
-class: text-center
+layout: image
+image: /img/thank-you-audience.jpg
+backgroundSize: cover
+class: text-white
 ---
 
-<div class="absolute inset-0 -z-10 bg-gradient-to-br from-[#0a1628] via-[#001628] to-[#001a1f]" />
-<div class="absolute inset-0 -z-10 opacity-40" style="background: radial-gradient(circle at 30% 40%, rgba(0,173,181,0.5), transparent 50%), radial-gradient(circle at 70% 60%, rgba(254,202,87,0.3), transparent 50%);" />
+<div class="absolute inset-0 bg-gradient-to-br from-[#020617]/40 via-[#001628]/65 to-black/95" />
+<div class="absolute inset-0 opacity-70" style="background: radial-gradient(circle at 18% 22%, rgba(78,205,196,0.42), transparent 36%), radial-gradient(circle at 82% 18%, rgba(254,202,87,0.34), transparent 34%), radial-gradient(circle at 50% 86%, rgba(0,173,181,0.28), transparent 44%);" />
+<div class="absolute inset-0 backdrop-blur-[1px]" />
+<div class="absolute inset-0 border-[18px] border-black/20" />
 
-<div class="flex flex-col items-center justify-center h-full">
-  <img src="/img/s01_1.png" class="!h-10 !mb-8 invert opacity-80" alt="Netlify" />
-  <div class="text-8xl font-extralight bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent mb-8">
-    Thank you
+<div class="relative z-10 flex flex-col h-full justify-between p-14">
+  <div class="flex items-center justify-between">
+    <img src="/img/s01_1.png" class="!h-9 invert opacity-85" alt="Netlify" />
+    <div class="text-xs uppercase tracking-[0.35em] text-[#4ecdc4]">DevWorld Amsterdam · 2026</div>
   </div>
-  <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent mb-8" />
-  <a href="https://netlify.com/ax" target="_blank" class="text-2xl font-mono text-[#4ecdc4] hover:text-white transition">
-    netlify.com/ax
-  </a>
-  <div class="mt-12 text-sm opacity-50">Matt Biilmann · Netlify · 2026</div>
+
+  <div class="max-w-4xl">
+    <div class="text-sm uppercase tracking-[0.45em] text-[#feca57] mb-5">You just watched AX happen live</div>
+    <div class="text-[6.5rem] leading-[0.9] font-extralight tracking-tight">
+      Thank you,
+      <span class="block bg-gradient-to-r from-white via-[#4ecdc4] to-[#feca57] bg-clip-text text-transparent font-light">builders.</span>
+    </div>
+    <div class="mt-8 w-32 h-px bg-gradient-to-r from-[#4ecdc4] via-white to-transparent" />
+    <div class="mt-8 text-2xl font-light max-w-3xl leading-snug text-white/88">
+      The future of developer experience is not just for developers — it is for the agents we invite into the work with us.
+    </div>
+  </div>
+
+  <div class="flex items-end justify-between gap-8">
+    <a href="https://netlify.com/ax" target="_blank" class="text-2xl font-mono text-[#4ecdc4] hover:text-white transition">netlify.com/ax</a>
+    <div class="text-right">
+      <div class="text-xs uppercase tracking-[0.35em] text-white/55 mb-2">Built during this talk</div>
+      <div class="text-lg text-white/80">Matt Biilmann · Netlify</div>
+    </div>
+  </div>
 </div>
