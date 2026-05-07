@@ -538,6 +538,12 @@ backgroundSize: contain
 </div>
 
 ---
+layout: image
+image: /img/slide-31-screenshot.jpg
+backgroundSize: contain
+---
+
+---
 title: Netlify Database
 layout: image-right
 image: /img/s42_1.png
