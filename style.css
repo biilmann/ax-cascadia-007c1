@@ -1,0 +1,90 @@
+/* Global polish for the AX deck */
+
+.slidev-layout {
+  background: linear-gradient(135deg, #0a1628 0%, #001628 50%, #001a1f 100%);
+  color: #e8edf2;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.slidev-layout h1 {
+  background: linear-gradient(90deg, #ffffff 0%, #4ecdc4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.slidev-layout code {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  background: rgba(78, 205, 196, 0.12);
+  color: #4ecdc4;
+  padding: 0.1em 0.35em;
+  border-radius: 0.3em;
+  font-size: 0.92em;
+}
+
+.slidev-layout em {
+  font-style: italic;
+}
+
+/* Soft scrollbars */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: rgba(78, 205, 196, 0.25); border-radius: 3px; }
+
+/* Section layout: dark dramatic backdrop */
+.slidev-layout.section {
+  background: radial-gradient(ellipse at center, #0d2a35 0%, #001628 60%, #000c14 100%);
+}
+
+/* Cover layout: subtle vignette */
+.slidev-layout.cover {
+  background: radial-gradient(ellipse at top, #0a2333 0%, #001628 50%, #000812 100%);
+}
+
+/* Quote slide blockquotes */
+blockquote {
+  border-left: 3px solid #4ecdc4;
+  padding-left: 1.25rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Smooth animation defaults */
+.slidev-vclick-target {
+  transition: all 500ms ease;
+}
+
+/* kbd polish */
+kbd {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.75em;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Better link styling */
+a {
+  color: #4ecdc4;
+  text-decoration: none;
+  transition: color 200ms;
+}
+a:hover {
+  color: #ffffff;
+}
+
+/* Goto dialog (`g` key) bugfix: Slidev's hide-state moves the panel up by
+   only 80px (`-top-20`), leaving its long autocomplete list visible.
+   Force a true hide unless the panel is in its open position (`top-5`). */
+#slidev-goto-dialog {
+  visibility: hidden;
+  pointer-events: none;
+}
+#slidev-goto-dialog.top-5 {
+  visibility: visible;
+  pointer-events: auto;
+}
