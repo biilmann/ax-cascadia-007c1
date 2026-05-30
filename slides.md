@@ -129,6 +129,61 @@ transition: fade
 </style>
 
 ---
+title: CascadiaJS
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="absolute inset-0 -z-20 bg-gradient-to-b from-[#0a1628] via-[#08233a] to-[#0c2e3a]" />
+<div class="absolute inset-0 -z-20 opacity-40" style="background: radial-gradient(circle at 70% 18%, rgba(78,205,196,0.35), transparent 55%), radial-gradient(circle at 20% 30%, rgba(0,173,181,0.25), transparent 50%);" />
+
+<svg class="cascadia-sky absolute inset-0 -z-10 w-full h-full" viewBox="0 0 980 552" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+  <!-- Mount Rainier -->
+  <polygon class="cascadia-mtn" points="0,400 180,250 250,300 360,200 470,320 560,400" fill="#0e3344" />
+  <polygon class="cascadia-snow" points="320,238 360,200 410,250 388,252 372,238 352,256 336,246" fill="#bfeef0" opacity="0.7" />
+  <!-- Skyline -->
+  <g class="cascadia-city" fill="#06202e">
+    <rect x="40" y="430" width="60" height="122" />
+    <rect x="110" y="400" width="48" height="152" />
+    <rect x="168" y="455" width="70" height="97" />
+    <rect x="250" y="410" width="44" height="142" />
+    <rect x="690" y="440" width="60" height="112" />
+    <rect x="760" y="405" width="52" height="147" />
+    <rect x="822" y="460" width="68" height="92" />
+    <rect x="900" y="425" width="50" height="127" />
+  </g>
+  <!-- Space Needle -->
+  <g class="cascadia-needle" stroke="#4ecdc4" stroke-width="3" fill="none" opacity="0.9">
+    <line x1="490" y1="300" x2="490" y2="552" />
+    <path d="M455,318 Q490,290 525,318 Q490,348 455,318 Z" fill="#08303c" stroke="#4ecdc4" />
+    <line x1="490" y1="300" x2="490" y2="270" />
+    <circle cx="490" cy="266" r="4" fill="#4ecdc4" stroke="none" class="cascadia-beacon" />
+  </g>
+</svg>
+
+<div class="relative z-10 flex flex-col items-center justify-center">
+  <div class="!text-sm !font-light tracking-[0.4em] uppercase text-[#4ecdc4] mb-5">Seattle · June 1–2, 2026</div>
+  <h1 class="!text-8xl !font-light !leading-none">
+    Cascadia<span class="font-semibold bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">JS</span>
+  </h1>
+  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-7" />
+  <p class="!text-xl !opacity-80 !font-light">A JavaScript conference for the Pacific Northwest</p>
+</div>
+
+<style>
+.cascadia-sky { opacity: 0.92; }
+.cascadia-beacon {
+  filter: drop-shadow(0 0 8px rgba(78,205,196,0.9));
+  animation: cascadia-blink 3.2s ease-in-out infinite;
+}
+@keyframes cascadia-blink {
+  0%, 100% { opacity: 0.5; }
+  50%      { opacity: 1; }
+}
+</style>
+
+---
 title: Rivian, in the snow
 layout: image
 image: /img/s04_1.jpg
