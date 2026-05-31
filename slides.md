@@ -5,7 +5,7 @@ info: |
   ## AX, Agent Experience
   Building products for agents
 
-  Matt Biilmann · Netlify · DevWorld Amsterdam · 2026
+  Matt Biilmann · Netlify · CascadiaJS · 2026
 class: text-center
 highlighter: shiki
 drawings:
@@ -25,7 +25,7 @@ canvasWidth: 980
 
 <div class="flex flex-col items-center justify-center h-full text-center">
   <img src="/img/s01_1.png" class="!h-12 !mb-10 invert opacity-90" alt="Netlify" />
-  <div class="mb-4 text-[#4ecdc4] uppercase tracking-[0.4em] text-sm">DevWorld Amsterdam</div>
+  <div class="mb-4 text-[#4ecdc4] uppercase tracking-[0.4em] text-sm">CascadiaJS</div>
   <h1 class="!text-7xl !font-light !leading-tight !mb-4 bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent">
     AX, Agent Experience
   </h1>
@@ -982,7 +982,7 @@ class: text-white
 <div class="relative z-10 flex flex-col h-full justify-between p-14">
   <div class="flex items-center justify-between">
     <img src="/img/s01_1.png" class="!h-9 invert opacity-85" alt="Netlify" />
-    <div class="text-xs uppercase tracking-[0.35em] text-[#4ecdc4]">DevWorld Amsterdam · 2026</div>
+    <div class="text-xs uppercase tracking-[0.35em] text-[#4ecdc4]">CascadiaJS · 2026</div>
   </div>
 
   <div class="max-w-4xl">
