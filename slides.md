@@ -184,6 +184,97 @@ transition: fade
 </style>
 
 ---
+title: Flying to Seattle
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="absolute inset-0 -z-20 bg-gradient-to-b from-[#06101f] via-[#0a2236] to-[#0c2e3a]" />
+<div class="absolute inset-0 -z-20 opacity-60" style="background: radial-gradient(circle at 78% 16%, rgba(254,202,87,0.28), transparent 46%), radial-gradient(circle at 18% 78%, rgba(0,173,181,0.30), transparent 50%);" />
+
+<svg class="flight-scene absolute inset-0 -z-10 w-full h-full" viewBox="0 0 980 552" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <!-- Stars -->
+  <g class="flight-stars" fill="#cfe9ec">
+    <circle cx="120" cy="80" r="1.4" style="--d:0s" />
+    <circle cx="300" cy="50" r="1" style="--d:1.3s" />
+    <circle cx="470" cy="90" r="1.6" style="--d:0.6s" />
+    <circle cx="640" cy="60" r="1.1" style="--d:2.1s" />
+    <circle cx="820" cy="110" r="1.4" style="--d:0.9s" />
+    <circle cx="900" cy="200" r="1" style="--d:1.7s" />
+    <circle cx="210" cy="210" r="1.1" style="--d:2.4s" />
+    <circle cx="710" cy="170" r="1.3" style="--d:0.3s" />
+  </g>
+
+  <!-- Clouds -->
+  <g class="flight-clouds" fill="#13384a" opacity="0.55">
+    <ellipse cx="180" cy="470" rx="150" ry="34" />
+    <ellipse cx="540" cy="510" rx="220" ry="44" />
+    <ellipse cx="870" cy="465" rx="160" ry="36" />
+  </g>
+
+  <!-- Great-circle flight path: San Francisco -> Seattle -->
+  <path class="flight-path" d="M770,430 Q430,120 205,160" stroke="#4ecdc4" stroke-width="2.5"
+        fill="none" stroke-dasharray="3 11" stroke-linecap="round" />
+
+  <!-- City markers -->
+  <g class="flight-cities" fill="#4ecdc4">
+    <circle cx="770" cy="430" r="6" />
+    <circle class="flight-dest" cx="205" cy="160" r="6" />
+  </g>
+
+  <!-- Airplane, banking up the arc toward the north-west -->
+  <g class="flight-plane" transform="translate(452,212) rotate(-46)">
+    <path fill="#f4fbfb" stroke="#4ecdc4" stroke-width="1"
+          d="M0,-25 C2.4,-25 4,-20.5 4,-13 L4,-7 L23,3 L23,9 L4,2.5 L4,12 L10,17.5 L10,21.5 L0,18.5 L-10,21.5 L-10,17.5 L-4,12 L-4,2.5 L-23,9 L-23,3 L-4,-7 L-4,-13 C-4,-20.5 -2.4,-25 0,-25 Z" />
+  </g>
+</svg>
+
+<div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+
+<div class="absolute bottom-12 left-12 z-10 text-left text-white">
+  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">San Francisco → Seattle</div>
+  <div class="text-5xl font-light">Flying to CascadiaJS</div>
+</div>
+
+<style>
+.flight-scene { opacity: 0.95; }
+.flight-stars circle {
+  animation: flight-twinkle 3.6s ease-in-out infinite;
+  animation-delay: var(--d, 0s);
+}
+.flight-path {
+  stroke-opacity: 0.85;
+  filter: drop-shadow(0 0 5px rgba(78,205,196,0.5));
+  animation: flight-dash 2.4s linear infinite;
+}
+.flight-dest {
+  filter: drop-shadow(0 0 9px rgba(78,205,196,0.9));
+  animation: flight-pulse 2.8s ease-in-out infinite;
+}
+.flight-plane {
+  filter: drop-shadow(0 6px 10px rgba(0,0,0,0.45));
+  animation: flight-bob 5s ease-in-out infinite;
+  transform-box: fill-box;
+}
+@keyframes flight-twinkle {
+  0%, 100% { opacity: 0.35; }
+  50%      { opacity: 1; }
+}
+@keyframes flight-dash {
+  to { stroke-dashoffset: -28; }
+}
+@keyframes flight-pulse {
+  0%, 100% { opacity: 0.6; }
+  50%      { opacity: 1; }
+}
+@keyframes flight-bob {
+  0%, 100% { transform: translate(452px,212px) rotate(-46deg); }
+  50%      { transform: translate(449px,206px) rotate(-46deg); }
+}
+</style>
+
+---
 title: Rivian, in the snow
 layout: image
 image: /img/s04_1.jpg
