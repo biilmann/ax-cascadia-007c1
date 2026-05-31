@@ -41,30 +41,162 @@ canvasWidth: 980
 <!-- 10 years, front-end pseudo. Welcome. -->
 
 ---
-title: To Build a Better Web
+title: Netlify
 layout: center
 class: text-center
 transition: fade
 ---
 
-<div class="text-[3rem] font-light tracking-wide opacity-90">
-  To Build a<br/>
-  <span class="font-semibold bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">
-    Better Web
-  </span>
+<div class="flex flex-col items-center justify-center">
+  <div class="!text-2xl !font-light tracking-[0.3em] uppercase opacity-90 bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent">
+    Netlify
+  </div>
+  <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-7" />
+  <div class="!text-[4rem] !font-light !leading-tight tracking-wide">
+    Turn imagination into
+    <span class="font-medium bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">reality</span>
+  </div>
 </div>
 
 ---
-title: Our Mission
+title: The Web
 layout: center
 class: text-center
+transition: fade
 ---
 
-<div class="uppercase tracking-[0.3em] text-sm text-[#4ecdc4] mb-6">Our Mission</div>
+<div class="absolute inset-0 -z-10 bg-gradient-to-br from-[#0a1628] via-[#001628] to-[#001a1f]" />
 
-<div class="text-4xl font-light leading-snug max-w-3xl">
-  Enable the world's developers to <em class="text-[#4ecdc4] not-italic font-medium">create</em>,<br/>
-  and unlock the <em class="text-[#4ecdc4] not-italic font-medium">power of the web</em>.
+<svg class="theweb-net absolute inset-0 -z-10 w-full h-full" viewBox="0 0 980 552" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <g class="theweb-links" stroke="#4ecdc4" stroke-width="1" fill="none">
+    <line x1="120" y1="110" x2="320" y2="80" />
+    <line x1="320" y1="80" x2="500" y2="180" />
+    <line x1="500" y1="180" x2="700" y2="110" />
+    <line x1="700" y1="110" x2="860" y2="220" />
+    <line x1="120" y1="110" x2="220" y2="300" />
+    <line x1="220" y1="300" x2="420" y2="360" />
+    <line x1="420" y1="360" x2="500" y2="180" />
+    <line x1="420" y1="360" x2="640" y2="420" />
+    <line x1="640" y1="420" x2="700" y2="110" />
+    <line x1="640" y1="420" x2="840" y2="470" />
+    <line x1="220" y1="300" x2="160" y2="490" />
+    <line x1="160" y1="490" x2="420" y2="360" />
+    <line x1="500" y1="180" x2="860" y2="220" />
+    <line x1="840" y1="470" x2="860" y2="220" />
+  </g>
+  <g class="theweb-nodes" fill="#4ecdc4">
+    <circle cx="120" cy="110" r="4" style="--d:0s" />
+    <circle cx="320" cy="80" r="3" style="--d:1.1s" />
+    <circle cx="500" cy="180" r="5" style="--d:0.4s" />
+    <circle cx="700" cy="110" r="4" style="--d:1.7s" />
+    <circle cx="860" cy="220" r="3" style="--d:0.9s" />
+    <circle cx="220" cy="300" r="4" style="--d:2.2s" />
+    <circle cx="420" cy="360" r="5" style="--d:0.2s" />
+    <circle cx="640" cy="420" r="4" style="--d:1.4s" />
+    <circle cx="160" cy="490" r="3" style="--d:2.6s" />
+    <circle cx="840" cy="470" r="4" style="--d:0.7s" />
+  </g>
+</svg>
+
+<div class="relative z-10">
+  <h1 class="!text-7xl !font-light !leading-tight bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent">
+    The Web
+  </h1>
+</div>
+
+<style>
+.theweb-net { opacity: 0.55; animation: theweb-drift 18s ease-in-out infinite alternate; }
+.theweb-links line { stroke-opacity: 0.18; animation: theweb-pulse 6s ease-in-out infinite; }
+.theweb-nodes circle {
+  filter: drop-shadow(0 0 6px rgba(78, 205, 196, 0.7));
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: theweb-node 4.5s ease-in-out infinite;
+  animation-delay: var(--d, 0s);
+}
+@keyframes theweb-drift {
+  from { transform: translate3d(-1.5%, -1%, 0) scale(1.02); }
+  to   { transform: translate3d(1.5%, 1%, 0) scale(1.06); }
+}
+@keyframes theweb-pulse {
+  0%, 100% { stroke-opacity: 0.10; }
+  50%      { stroke-opacity: 0.30; }
+}
+@keyframes theweb-node {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%      { opacity: 1; transform: scale(1.35); }
+}
+</style>
+
+---
+title: CascadiaJS
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="absolute inset-0 -z-20 bg-gradient-to-b from-[#0a1628] via-[#08233a] to-[#0c2e3a]" />
+<div class="absolute inset-0 -z-20 opacity-40" style="background: radial-gradient(circle at 70% 18%, rgba(78,205,196,0.35), transparent 55%), radial-gradient(circle at 20% 30%, rgba(0,173,181,0.25), transparent 50%);" />
+
+<svg class="cascadia-sky absolute inset-0 -z-10 w-full h-full" viewBox="0 0 980 552" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+  <!-- Mount Rainier -->
+  <polygon class="cascadia-mtn" points="0,400 180,250 250,300 360,200 470,320 560,400" fill="#0e3344" />
+  <polygon class="cascadia-snow" points="320,238 360,200 410,250 388,252 372,238 352,256 336,246" fill="#bfeef0" opacity="0.7" />
+  <!-- Skyline -->
+  <g class="cascadia-city" fill="#06202e">
+    <rect x="40" y="430" width="60" height="122" />
+    <rect x="110" y="400" width="48" height="152" />
+    <rect x="168" y="455" width="70" height="97" />
+    <rect x="250" y="410" width="44" height="142" />
+    <rect x="690" y="440" width="60" height="112" />
+    <rect x="760" y="405" width="52" height="147" />
+    <rect x="822" y="460" width="68" height="92" />
+    <rect x="900" y="425" width="50" height="127" />
+  </g>
+  <!-- Space Needle -->
+  <g class="cascadia-needle" stroke="#4ecdc4" stroke-width="3" fill="none" opacity="0.9">
+    <line x1="490" y1="300" x2="490" y2="552" />
+    <path d="M455,318 Q490,290 525,318 Q490,348 455,318 Z" fill="#08303c" stroke="#4ecdc4" />
+    <line x1="490" y1="300" x2="490" y2="270" />
+    <circle cx="490" cy="266" r="4" fill="#4ecdc4" stroke="none" class="cascadia-beacon" />
+  </g>
+</svg>
+
+<div class="relative z-10 flex flex-col items-center justify-center">
+  <div class="!text-sm !font-light tracking-[0.4em] uppercase text-[#4ecdc4] mb-5">Seattle · June 1–2, 2026</div>
+  <h1 class="!text-8xl !font-light !leading-none">
+    Cascadia<span class="font-semibold bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">JS</span>
+  </h1>
+  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-7" />
+  <p class="!text-xl !opacity-80 !font-light">A JavaScript conference for the Pacific Northwest</p>
+</div>
+
+<style>
+.cascadia-sky { opacity: 0.92; }
+.cascadia-beacon {
+  filter: drop-shadow(0 0 8px rgba(78,205,196,0.9));
+  animation: cascadia-blink 3.2s ease-in-out infinite;
+}
+@keyframes cascadia-blink {
+  0%, 100% { opacity: 0.5; }
+  50%      { opacity: 1; }
+}
+</style>
+
+---
+title: Flying to Seattle
+layout: image
+image: /img/flight_1.jpg
+backgroundSize: cover
+class: text-white
+transition: fade
+---
+
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+
+<div class="absolute bottom-12 left-12 z-10 text-left text-white">
+  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">San Francisco → Seattle</div>
+  <div class="text-5xl font-light">Flying to CascadiaJS</div>
 </div>
 
 ---

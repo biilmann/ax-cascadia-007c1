@@ -3,6 +3,10 @@
 .slidev-layout {
   background: linear-gradient(135deg, #0a1628 0%, #001628 50%, #001a1f 100%);
   color: #e8edf2;
+  /* Establish a stacking context so in-slide backgrounds placed at a negative
+     z-index (e.g. the SVG illustrations on "The Web" and "CascadiaJS") paint
+     above this opaque background instead of being hidden behind it. */
+  isolation: isolate;
 }
 
 .slidev-layout h1,
