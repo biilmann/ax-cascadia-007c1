@@ -421,90 +421,81 @@ backgroundSize: contain
 </div>
 
 ---
-title: Quote — Matt Biilmann
+title: Traction — The industry is converging on AX
 layout: center
+class: text-center
 ---
 
-<div class="flex items-center gap-12 max-w-5xl">
-  <img src="/img/s30_1.jpg" class="w-32 h-32 rounded-full border-2 border-[#4ecdc4]/50 flex-shrink-0" />
-  <div>
-    <div class="text-2xl font-light leading-snug italic opacity-90">
+<div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-1">Traction</div>
+<h2 class="!text-3xl !font-extralight !mb-5">
+  The industry is converging on
+  <span class="bg-gradient-to-r from-[#4ecdc4] to-[#feca57] bg-clip-text text-transparent font-medium">AX</span>
+</h2>
+
+<div class="columns-3 gap-3 max-w-5xl mx-auto text-left [&>*]:mb-3">
+
+  <div class="break-inside-avoid rounded-xl border border-white/10 bg-white/5 p-4 -rotate-1">
+    <div class="text-sm font-light leading-snug italic opacity-90 mb-3">
       "The holistic experience AI agents will have as the
-      <span class="text-[#4ecdc4] not-italic font-normal">user of a product or platform</span>."
+      <span class="text-[#4ecdc4] not-italic">user of a product or platform</span>."
     </div>
-    <div class="mt-6">
-      <div class="text-sm opacity-80">Matt Biilmann</div>
-      <div class="text-xs opacity-50">Founder & CEO, Netlify</div>
+    <div class="flex items-center gap-2">
+      <img src="/img/s30_1.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
+      <div>
+        <div class="text-xs opacity-80">Matt Biilmann</div>
+        <div class="text-[10px] opacity-50">CEO, Netlify</div>
+      </div>
     </div>
   </div>
-</div>
 
----
-title: Quote — Michael Grinich
-layout: center
----
-
-<div class="flex items-center gap-12 max-w-5xl">
-  <img src="/img/s31_2.jpg" class="w-32 h-32 rounded-full border-2 border-[#4ecdc4]/50 flex-shrink-0" />
-  <div>
-    <div class="text-3xl font-light leading-snug italic opacity-90">
+  <div class="break-inside-avoid rounded-xl border border-[#4ecdc4]/30 bg-[#4ecdc4]/10 p-4 rotate-1">
+    <div class="text-lg font-light leading-snug italic opacity-90 mb-3">
       "The future will be driven by
-      <span class="text-[#4ecdc4] not-italic font-normal">AX</span>."
+      <span class="text-[#4ecdc4] not-italic">AX</span>."
     </div>
-    <div class="mt-6">
-      <div class="text-sm opacity-80">Michael Grinich</div>
-      <div class="text-xs opacity-50">Founder & CEO, WorkOS</div>
-    </div>
-  </div>
-</div>
-
----
-title: Quote — John Maeda
-layout: center
----
-
-<div class="flex items-center gap-12 max-w-5xl">
-  <img src="/img/s32_1.jpg" class="w-32 h-32 rounded-full border-2 border-[#4ecdc4]/50 flex-shrink-0" />
-  <div>
-    <div class="text-2xl font-light leading-snug italic opacity-90">
-      "Perhaps the most profound shift I've observed in eleven years […]
-      <span class="text-[#4ecdc4] not-italic font-normal">the evolution from User Experience (UX) to Agent Experience (AX)</span>."
-    </div>
-    <div class="mt-6">
-      <div class="text-sm opacity-80">John Maeda</div>
-      <div class="text-xs opacity-50">VP Engineering, AI Platform — Microsoft</div>
+    <div class="flex items-center gap-2">
+      <img src="/img/s31_2.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
+      <div>
+        <div class="text-xs opacity-80">Michael Grinich</div>
+        <div class="text-[10px] opacity-50">CEO, WorkOS</div>
+      </div>
     </div>
   </div>
-</div>
 
----
-title: Quote — Dharmesh Shah
-layout: center
----
+  <div class="break-inside-avoid rounded-xl border border-white/10 bg-white/5 p-4 rotate-1">
+    <div class="text-sm font-light leading-snug italic opacity-90 mb-3">
+      "The most profound shift I've observed in eleven years —
+      <span class="text-[#4ecdc4] not-italic">the evolution from UX to AX</span>."
+    </div>
+    <div class="flex items-center gap-2">
+      <img src="/img/s32_1.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
+      <div>
+        <div class="text-xs opacity-80">John Maeda</div>
+        <div class="text-[10px] opacity-50">VP Eng, AI Platform — Microsoft</div>
+      </div>
+    </div>
+  </div>
 
-<div class="flex items-center gap-12 max-w-5xl">
-  <img src="/img/s33_2.jpg" class="w-32 h-32 rounded-full border-2 border-[#4ecdc4]/50 flex-shrink-0" />
-  <div>
-    <div class="text-2xl font-light leading-snug italic opacity-90">
+  <div class="break-inside-avoid rounded-xl border border-white/10 bg-white/5 p-4 -rotate-1">
+    <div class="text-sm font-light leading-snug italic opacity-90 mb-3">
       "You can't have great
-      <span class="text-[#4ecdc4] not-italic font-normal">DX</span>
+      <span class="text-[#4ecdc4] not-italic">DX</span>
       if you don't have great
-      <span class="text-[#feca57] not-italic font-normal">AX</span>."
+      <span class="text-[#feca57] not-italic">AX</span>."
     </div>
-    <div class="mt-6">
-      <div class="text-sm opacity-80">Dharmesh Shah</div>
-      <div class="text-xs opacity-50">Founder & CTO, HubSpot</div>
+    <div class="flex items-center gap-2">
+      <img src="/img/s33_2.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
+      <div>
+        <div class="text-xs opacity-80">Dharmesh Shah</div>
+        <div class="text-[10px] opacity-50">CTO, HubSpot</div>
+      </div>
     </div>
   </div>
-</div>
 
----
-title: Quote — Tobin South
-layout: center
----
+  <div class="break-inside-avoid rounded-xl border border-white/10 overflow-hidden rotate-1">
+    <img src="/img/tobin-south-tweet.png" class="w-full" />
+  </div>
 
-<div class="flex justify-center">
-  <img src="/img/tobin-south-tweet.png" class="max-h-[70vh] rounded-xl border-2 border-[#4ecdc4]/50" />
 </div>
 
 ---
