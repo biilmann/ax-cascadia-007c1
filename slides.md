@@ -922,7 +922,7 @@ backgroundSize: contain
   <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Linear · Agents</div>
   <h2 class="!text-3xl !font-light !mb-4">Deploy AI teammates<br/>inside Linear.</h2>
   <p class="opacity-70 text-sm">
-    Devin, Codex, Linear Agent, Netlify Agent Runners.
+    Launch agent flows with external agents from apps like Linear, Notion, etc...
   </p>
 </div>
 
