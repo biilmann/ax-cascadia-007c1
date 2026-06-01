@@ -656,17 +656,25 @@ class: text-center
 <div class="text-8xl font-extralight">Access</div>
 
 ---
-title: Anonymous provisioning, claim later
-layout: image-right
-image: /img/s41_1.png
-backgroundSize: contain
+title: netlify.ai
+layout: default
 ---
 
-<div class="flex flex-col h-full justify-center pr-4">
-  <h2 class="!text-3xl !font-light !mb-6">Anonymous provisioning,<br/>claim later</h2>
-  <p class="opacity-80 text-sm leading-relaxed">
-    Remove all friction from sign-up. Let the agents start using your product immediately.
-  </p>
+# netlify.ai — for humans and for agents
+
+<div class="grid grid-cols-2 gap-4 mt-6">
+  <div>
+    <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">Same URL · human</div>
+    <img src="/img/s43_1.png" class="rounded-xl border border-white/10" />
+  </div>
+  <div>
+    <div class="text-xs uppercase tracking-[0.3em] text-[#feca57] mb-2">Same URL · agent</div>
+    <img src="/img/s44_1.png" class="rounded-xl border border-white/10" />
+  </div>
+</div>
+
+<div class="mt-4 text-center text-sm opacity-70">
+  One URL. Two responses. The agent gets <code>text/markdown</code> with install commands; the human gets a marketing page.
 </div>
 
 ---
@@ -690,25 +698,21 @@ backgroundSize: contain
 </div>
 
 ---
-title: netlify.ai
+title: Agent Auth — Emerging Standards
 layout: default
 ---
 
-# netlify.ai — for humans and for agents
-
-<div class="grid grid-cols-2 gap-4 mt-6">
-  <div>
-    <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">Same URL · human</div>
-    <img src="/img/s43_1.png" class="rounded-xl border border-white/10" />
+<div class="flex flex-col h-full py-2">
+  <div class="flex-none">
+    <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">Access · Agent Auth</div>
+    <div class="text-5xl font-light">Emerging Standards</div>
   </div>
-  <div>
-    <div class="text-xs uppercase tracking-[0.3em] text-[#feca57] mb-2">Same URL · agent</div>
-    <img src="/img/s44_1.png" class="rounded-xl border border-white/10" />
+  <div class="flex-1 min-h-0 mt-6 flex items-center justify-center">
+    <img
+      src="/img/agentauth-emerging-standards.png"
+      class="max-h-full max-w-full object-contain rounded-xl border border-white/10 shadow-2xl"
+    />
   </div>
-</div>
-
-<div class="mt-4 text-center text-sm opacity-70">
-  One URL. Two responses. The agent gets <code>text/markdown</code> with install commands; the human gets a marketing page.
 </div>
 
 ---
@@ -873,8 +877,10 @@ class: text-center youtube-slide
 
 <h1 class="youtube-slide-title">Netlify CLI, great DX</h1>
 
-<div class="youtube-video-frame">
-  <iframe src="https://www.youtube.com/embed/wz3Txat8Y9A?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=wz3Txat8Y9A" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube-video-frame youtube-video-frame--native">
+  <video class="youtube-video-iframe" autoplay muted loop playsinline>
+    <source src="/video/netlify-cli-dx.mp4" type="video/mp4" />
+  </video>
 </div>
 
 ---
@@ -885,8 +891,10 @@ class: text-center youtube-slide
 
 <h1 class="youtube-slide-title">Netlify CLI, great AX?</h1>
 
-<div class="youtube-video-frame">
-  <iframe src="https://www.youtube.com/embed/XsWu2zgxMr8?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=XsWu2zgxMr8" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube-video-frame youtube-video-frame--native">
+  <video class="youtube-video-iframe" autoplay muted loop playsinline>
+    <source src="/video/netlify-cli-ax.mp4" type="video/mp4" />
+  </video>
 </div>
 
 ---
@@ -907,8 +915,10 @@ class: text-center youtube-slide
 
 <h1 class="youtube-slide-title">Netlify CLI, still great DX</h1>
 
-<div class="youtube-video-frame">
-  <iframe src="https://www.youtube.com/embed/oY7hOXZMr9M?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=oY7hOXZMr9M" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube-video-frame youtube-video-frame--native">
+  <video class="youtube-video-iframe" autoplay muted loop playsinline>
+    <source src="/video/netlify-cli-still-dx.mp4" type="video/mp4" />
+  </video>
 </div>
 
 ---
@@ -919,8 +929,10 @@ class: text-center youtube-slide
 
 <h1 class="youtube-slide-title">Netlify CLI, great AX</h1>
 
-<div class="youtube-video-frame">
-  <iframe src="https://www.youtube.com/embed/T5aaXgQvGLw?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=T5aaXgQvGLw" class="youtube-video-iframe pointer-events-none" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube-video-frame youtube-video-frame--native">
+  <video class="youtube-video-iframe" autoplay muted loop playsinline>
+    <source src="/video/netlify-cli-ax2.mp4" type="video/mp4" />
+  </video>
 </div>
 
 ---
