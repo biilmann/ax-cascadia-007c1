@@ -135,32 +135,11 @@ class: text-center
 transition: fade
 ---
 
-<div class="absolute inset-0 -z-20 bg-gradient-to-b from-[#0a1628] via-[#08233a] to-[#0c2e3a]" />
-<div class="absolute inset-0 -z-20 opacity-40" style="background: radial-gradient(circle at 70% 18%, rgba(78,205,196,0.35), transparent 55%), radial-gradient(circle at 20% 30%, rgba(0,173,181,0.25), transparent 50%);" />
-
-<svg class="cascadia-sky absolute inset-0 -z-10 w-full h-full" viewBox="0 0 980 552" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-  <!-- Mount Rainier -->
-  <polygon class="cascadia-mtn" points="0,400 180,250 250,300 360,200 470,320 560,400" fill="#0e3344" />
-  <polygon class="cascadia-snow" points="320,238 360,200 410,250 388,252 372,238 352,256 336,246" fill="#bfeef0" opacity="0.7" />
-  <!-- Skyline -->
-  <g class="cascadia-city" fill="#06202e">
-    <rect x="40" y="430" width="60" height="122" />
-    <rect x="110" y="400" width="48" height="152" />
-    <rect x="168" y="455" width="70" height="97" />
-    <rect x="250" y="410" width="44" height="142" />
-    <rect x="690" y="440" width="60" height="112" />
-    <rect x="760" y="405" width="52" height="147" />
-    <rect x="822" y="460" width="68" height="92" />
-    <rect x="900" y="425" width="50" height="127" />
-  </g>
-  <!-- Space Needle -->
-  <g class="cascadia-needle" stroke="#4ecdc4" stroke-width="3" fill="none" opacity="0.9">
-    <line x1="490" y1="300" x2="490" y2="552" />
-    <path d="M455,318 Q490,290 525,318 Q490,348 455,318 Z" fill="#08303c" stroke="#4ecdc4" />
-    <line x1="490" y1="300" x2="490" y2="270" />
-    <circle cx="490" cy="266" r="4" fill="#4ecdc4" stroke="none" class="cascadia-beacon" />
-  </g>
-</svg>
+<video class="absolute inset-0 -z-20 w-full h-full object-cover" autoplay muted loop playsinline>
+  <source src="/img/video/cascadia-sizzle.mp4" type="video/mp4" />
+</video>
+<div class="absolute inset-0 -z-10 bg-gradient-to-b from-[#0a1628]/70 via-[#04141f]/60 to-[#0a1628]/85" />
+<div class="absolute inset-0 -z-10 opacity-40" style="background: radial-gradient(circle at 70% 18%, rgba(78,205,196,0.25), transparent 55%), radial-gradient(circle at 20% 30%, rgba(0,173,181,0.2), transparent 50%);" />
 
 <div class="relative z-10 flex flex-col items-center justify-center">
   <div class="!text-sm !font-light tracking-[0.4em] uppercase text-[#4ecdc4] mb-5">Seattle · June 1–2, 2026</div>
@@ -170,18 +149,6 @@ transition: fade
   <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-7" />
   <p class="!text-xl !opacity-80 !font-light">A JavaScript conference for the Pacific Northwest</p>
 </div>
-
-<style>
-.cascadia-sky { opacity: 0.92; }
-.cascadia-beacon {
-  filter: drop-shadow(0 0 8px rgba(78,205,196,0.9));
-  animation: cascadia-blink 3.2s ease-in-out infinite;
-}
-@keyframes cascadia-blink {
-  0%, 100% { opacity: 0.5; }
-  50%      { opacity: 1; }
-}
-</style>
 
 ---
 title: Flying to Seattle
@@ -347,25 +314,6 @@ backgroundSize: cover
 <div class="absolute bottom-12 left-12 z-10 text-white">
   <div class="text-xs uppercase tracking-[0.3em] text-[#feca57] mb-2">In the wild</div>
   <div class="text-5xl font-light">My Autonomous Agent</div>
-</div>
-
----
-title: My Bot Got Banned
-layout: image-right
-image: /img/s17_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#ff6b6b] mb-3">Side note</div>
-  <h2 class="!text-3xl !font-light !mb-4">My bot got banned<br/>for being a bot.</h2>
-  <p class="opacity-70 text-sm">
-    Risk-isolated test account. Read-only access. Gmail + calendar.<br/>
-    Blocked by policy, on day one.
-  </p>
-  <p class="opacity-50 text-xs italic mt-4">
-    The web wasn't built for non-human users. Yet.
-  </p>
 </div>
 
 ---
@@ -654,6 +602,25 @@ class: text-center
 
 <div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-4">Pillar 01</div>
 <div class="text-8xl font-extralight">Access</div>
+
+---
+title: My Bot Got Banned
+layout: image-right
+image: /img/s17_1.png
+backgroundSize: contain
+---
+
+<div class="flex flex-col h-full justify-center pr-4">
+  <div class="text-xs uppercase tracking-[0.3em] text-[#ff6b6b] mb-3">Side note</div>
+  <h2 class="!text-3xl !font-light !mb-4">My bot got banned<br/>for being a bot.</h2>
+  <p class="opacity-70 text-sm">
+    Risk-isolated test account. Read-only access. Gmail + calendar.<br/>
+    Blocked by policy, on day one.
+  </p>
+  <p class="opacity-50 text-xs italic mt-4">
+    The web wasn't built for non-human users. Yet.
+  </p>
+</div>
 
 ---
 title: netlify.ai
@@ -1043,61 +1010,6 @@ layout: default
 </div>
 
 ---
-title: AX — today and tomorrow
-layout: center
-class: text-center
----
-
-<div class="text-7xl font-extralight tracking-tight mb-2">AX</div>
-<div class="text-2xl font-light opacity-80 mb-12">Agent Experience</div>
-
-<div class="space-y-3 max-w-2xl mx-auto">
-  <div class="text-xl">
-    <span class="text-[#4ecdc4] font-medium">Today:</span>
-    AX is critical for infra and dev tools.
-  </div>
-  <div class="text-xl">
-    <span class="text-[#feca57] font-medium">Tomorrow:</span>
-    your products won't succeed without it.
-  </div>
-</div>
-
-<!-- What did it mean for Netlify? -->
-
----
-title: Mission update
-layout: center
-class: text-center
----
-
-<div class="uppercase tracking-[0.3em] text-sm text-[#4ecdc4] mb-6">Our Mission</div>
-
-<div class="text-3xl font-light leading-snug max-w-3xl">
-  Enable the world's <span class="relative">developers<sup class="text-[#feca57] text-base">*</sup></span>
-  to <em class="text-[#4ecdc4] not-italic font-medium">create</em>,<br/>
-  and unlock the <em class="text-[#4ecdc4] not-italic font-medium">power of the web</em>.
-</div>
-
-<div v-click class="mt-12 text-lg opacity-70">
-  <sup class="text-[#feca57]">*</sup> You are now a developer.
-</div>
-
----
-title: Stakeholders → Collaborators
-layout: center
----
-
-<div class="text-center max-w-3xl">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-4">Help your colleagues transform</div>
-  <div class="text-5xl font-extralight leading-tight">
-    From <span class="opacity-50 line-through decoration-[#ff6b6b]/60 decoration-2">Stakeholders</span>
-  </div>
-  <div v-click class="text-5xl font-extralight leading-tight mt-4">
-    To <span class="bg-gradient-to-r from-[#4ecdc4] to-[#feca57] bg-clip-text text-transparent font-medium">Collaborators</span>
-  </div>
-</div>
-
----
 title: Closing — The Road Ahead
 layout: image
 image: /img/s80_1.jpg
@@ -1111,41 +1023,24 @@ backgroundSize: cover
 </div>
 
 ---
-title: Thank you
-layout: image
-image: /img/thank-you-audience.jpg
-backgroundSize: cover
-class: text-white
+title: Measuring AX
+layout: image-right
+image: /img/measuring-ax.png
+backgroundSize: contain
 ---
 
-<div class="absolute inset-0 bg-gradient-to-br from-[#020617]/40 via-[#001628]/65 to-black/95" />
-<div class="absolute inset-0 opacity-70" style="background: radial-gradient(circle at 18% 22%, rgba(78,205,196,0.42), transparent 36%), radial-gradient(circle at 82% 18%, rgba(254,202,87,0.34), transparent 34%), radial-gradient(circle at 50% 86%, rgba(0,173,181,0.28), transparent 44%);" />
-<div class="absolute inset-0 backdrop-blur-[1px]" />
-<div class="absolute inset-0 border-[18px] border-black/20" />
-
-<div class="relative z-10 flex flex-col h-full justify-between p-14">
-  <div class="flex items-center justify-between">
-    <img src="/img/s01_1.png" class="!h-9 invert opacity-85" alt="Netlify" />
-    <div class="text-xs uppercase tracking-[0.35em] text-[#4ecdc4]">CascadiaJS · 2026</div>
-  </div>
-
-  <div class="max-w-4xl">
-    <div class="text-sm uppercase tracking-[0.45em] text-[#feca57] mb-5">You just watched AX happen live</div>
-    <div class="text-[6.5rem] leading-[0.9] font-extralight tracking-tight">
-      Thank you,
-      <span class="block bg-gradient-to-r from-white via-[#4ecdc4] to-[#feca57] bg-clip-text text-transparent font-light">builders.</span>
-    </div>
-    <div class="mt-8 w-32 h-px bg-gradient-to-r from-[#4ecdc4] via-white to-transparent" />
-    <div class="mt-8 text-2xl font-light max-w-3xl leading-snug text-white/88">
-      The future of developer experience is not just for developers — it is for the agents we invite into the work with us.
-    </div>
-  </div>
-
-  <div class="flex items-end justify-between gap-8">
-    <a href="https://netlify.com/ax" target="_blank" class="text-2xl font-mono text-[#4ecdc4] hover:text-white transition">netlify.com/ax</a>
-    <div class="text-right">
-      <div class="text-xs uppercase tracking-[0.35em] text-white/55 mb-2">Built during this talk</div>
-      <div class="text-lg text-white/80">Matt Biilmann · Netlify</div>
-    </div>
-  </div>
+<div class="flex flex-col h-full justify-center pr-4">
+  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">Evals, evals, evals</div>
+  <h2 class="!text-3xl !font-light !mb-4">Measuring Agent Experience</h2>
+  <p class="opacity-70 text-sm">
+    We can't automate humans, but we can automate agent runs.
+  </p>
 </div>
+
+---
+title: Thank you
+layout: center
+class: text-center
+---
+
+<div class="text-8xl font-extralight tracking-tight">Thank you</div>
