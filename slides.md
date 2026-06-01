@@ -1041,4 +1041,7 @@ layout: center
 class: text-center
 ---
 
-<div class="text-8xl font-extralight tracking-tight">Thank you</div>
+<div class="flex flex-col h-full items-center justify-center gap-8">
+  <img src="/img/cascadia-conference-thank-you.jpg" class="max-h-[60vh] rounded-2xl shadow-2xl object-contain" />
+  <div class="text-7xl font-extralight tracking-tight">Thank you</div>
+</div>
