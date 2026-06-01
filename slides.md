@@ -421,6 +421,27 @@ backgroundSize: contain
 </div>
 
 ---
+title: AX — Defined
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full max-w-4xl mx-auto">
+  <div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-8">Agent Experience</div>
+  <blockquote class="!text-4xl !font-extralight !leading-snug italic">
+    "The holistic experience AI agents will have as the
+    <span class="text-[#4ecdc4] not-italic font-light">user of a product or platform</span>."
+  </blockquote>
+  <div class="flex items-center gap-3 mt-12">
+    <img src="/img/s30_1.jpg" class="w-10 h-10 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
+    <div class="text-left">
+      <div class="text-sm opacity-80">Matt Biilmann</div>
+      <div class="text-xs opacity-50">CEO, Netlify</div>
+    </div>
+  </div>
+</div>
+
+---
 title: Traction — The industry is converging on AX
 layout: center
 class: text-center
@@ -433,20 +454,6 @@ class: text-center
 </h2>
 
 <div class="columns-3 gap-3 max-w-5xl mx-auto text-left [&>*]:mb-3">
-
-  <div class="break-inside-avoid rounded-xl border border-white/10 bg-white/5 p-4 -rotate-1">
-    <div class="text-sm font-light leading-snug italic opacity-90 mb-3">
-      "The holistic experience AI agents will have as the
-      <span class="text-[#4ecdc4] not-italic">user of a product or platform</span>."
-    </div>
-    <div class="flex items-center gap-2">
-      <img src="/img/s30_1.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
-      <div>
-        <div class="text-xs opacity-80">Matt Biilmann</div>
-        <div class="text-[10px] opacity-50">CEO, Netlify</div>
-      </div>
-    </div>
-  </div>
 
   <div class="break-inside-avoid rounded-xl border border-[#4ecdc4]/30 bg-[#4ecdc4]/10 p-4 rotate-1">
     <div class="text-lg font-light leading-snug italic opacity-90 mb-3">
