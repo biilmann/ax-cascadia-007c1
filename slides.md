@@ -708,7 +708,7 @@ transition: fade
 <div class="absolute inset-0 -z-10 bg-black" />
 
 <div class="flex flex-col items-center justify-center h-full">
-  <div class="text-white/50 text-sm uppercase tracking-[0.35em] mb-10">Are we building a world</div>
+  <div class="text-white/50 text-sm uppercase tracking-[0.35em] mb-10">Are we building the web</div>
   <div class="agentworld-lines text-white font-medium tracking-[-0.04em] leading-[1.05] !text-6xl">
     <div>For agents.</div>
     <div v-click class="opacity-80">To ship agents.</div>
@@ -733,7 +733,7 @@ transition: fade
 <div class="absolute inset-0 -z-10 opacity-70" style="background: radial-gradient(circle at 18% 20%, rgba(255,209,102,0.30), transparent 50%), radial-gradient(circle at 82% 30%, rgba(255,107,107,0.28), transparent 50%), radial-gradient(circle at 50% 95%, rgba(78,205,196,0.30), transparent 55%);" />
 
 <div class="flex flex-col items-center justify-center h-full">
-  <div class="text-white/70 text-sm uppercase tracking-[0.35em] mb-8">Or a world</div>
+  <div class="text-white/70 text-sm uppercase tracking-[0.35em] mb-8">Or a web</div>
 
   <div class="!text-6xl !font-light !leading-tight bg-gradient-to-r from-[#ffd166] via-[#ff8fa3] to-[#4ecdc4] bg-clip-text text-transparent">
     For humans.
