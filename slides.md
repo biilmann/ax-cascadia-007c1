@@ -296,10 +296,14 @@ layout: default
     <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">Access · Agent Auth</div>
     <div class="text-5xl font-light">Emerging Standards</div>
   </div>
-  <div class="flex-1 min-h-0 mt-6 flex items-center justify-center">
+  <div class="flex-1 min-h-0 mt-6 grid grid-cols-2 gap-4 items-center">
+    <img
+      src="/img/agentid-emerging-standards.png"
+      class="max-h-full w-full object-contain rounded-xl border border-white/10 shadow-2xl"
+    />
     <img
       src="/img/agentauth-emerging-standards.png"
-      class="max-h-full max-w-full object-contain rounded-xl border border-white/10 shadow-2xl"
+      class="max-h-full w-full object-contain rounded-xl border border-white/10 shadow-2xl"
     />
   </div>
 </div>
@@ -536,21 +540,6 @@ class: text-center
 <!-- Speaking of access, context, tools — and now where they all converge. -->
 
 ---
-title: AI teammates inside Linear
-layout: image-right
-image: /img/s69_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Linear · Agents</div>
-  <h2 class="!text-3xl !font-light !mb-4">Deploy AI teammates<br/>inside Linear.</h2>
-  <p class="opacity-70 text-sm">
-    Launch agent flows with external agents from apps like Linear, Notion, etc...
-  </p>
-</div>
-
----
 title: Build with an AI agent — in your workspace
 layout: image-right
 image: /img/s70_1.png
@@ -561,7 +550,7 @@ backgroundSize: contain
   <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Netlify Agent Runners</div>
   <h2 class="!text-3xl !font-light !mb-4">Pick your agent.<br/>Pick your task.</h2>
   <p class="opacity-70 text-sm">
-    Claude Code · OpenAI Codex · Google Gemini.<br/>
+    Claude Code · OpenAI Codex · Google Gemini · OpenCode.<br/>
     Same project, same context, your choice of agent.
   </p>
 </div>
