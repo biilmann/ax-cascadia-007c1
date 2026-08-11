@@ -177,41 +177,41 @@ layout: default
 <div v-click class="rounded-xl border border-[#4ecdc4]/30 bg-[#4ecdc4]/5 p-5">
   <div class="text-[#4ecdc4] text-xs uppercase tracking-widest mb-2">01</div>
   <div class="text-2xl font-medium mb-3">Access</div>
-  <ul class="space-y-1 text-sm opacity-80 list-none">
-    <li>· Can the agent access your product?</li>
-    <li>· Does it have the right permissions?</li>
-    <li>· Does the human need to be in the loop?</li>
-  </ul>
+  <div class="space-y-1 text-sm opacity-80">
+    <div>· Can the agent access your product?</div>
+    <div>· Does it have the right permissions?</div>
+    <div>· Does the human need to be in the loop?</div>
+  </div>
 </div>
 
 <div v-click class="rounded-xl border border-[#feca57]/30 bg-[#feca57]/5 p-5">
   <div class="text-[#feca57] text-xs uppercase tracking-widest mb-2">02</div>
   <div class="text-2xl font-medium mb-3">Context</div>
-  <ul class="space-y-1 text-sm opacity-80 list-none">
-    <li>· Does the LLM know about your product?</li>
-    <li>· Does it have the right context to use it?</li>
-    <li>· Do your responses build the right context?</li>
-  </ul>
+  <div class="space-y-1 text-sm opacity-80">
+    <div>· Does the LLM know about your product?</div>
+    <div>· Does it have the right context to use it?</div>
+    <div>· Do your responses build the right context?</div>
+  </div>
 </div>
 
 <div v-click class="rounded-xl border border-[#ff6b6b]/30 bg-[#ff6b6b]/5 p-5">
   <div class="text-[#ff6b6b] text-xs uppercase tracking-widest mb-2">03</div>
   <div class="text-2xl font-medium mb-3">Tools</div>
-  <ul class="space-y-1 text-sm opacity-80 list-none">
-    <li>· Are you building your product for agents?</li>
-    <li>· Do you offer the right tools?</li>
-    <li>· Can you reduce friction for humans-via-agent?</li>
-  </ul>
+  <div class="space-y-1 text-sm opacity-80">
+    <div>· Are you building your product for agents?</div>
+    <div>· Do you offer the right tools?</div>
+    <div>· Can you reduce friction for humans-via-agent?</div>
+  </div>
 </div>
 
 <div v-click class="rounded-xl border border-[#a78bfa]/30 bg-[#a78bfa]/5 p-5">
   <div class="text-[#a78bfa] text-xs uppercase tracking-widest mb-2">04</div>
   <div class="text-2xl font-medium mb-3">Orchestration</div>
-  <ul class="space-y-1 text-sm opacity-80 list-none">
-    <li>· Can users access agents from your product?</li>
-    <li>· Are agents integrated into your workflow?</li>
-    <li>· Can humans and agents collaborate?</li>
-  </ul>
+  <div class="space-y-1 text-sm opacity-80">
+    <div>· Can users access agents from your product?</div>
+    <div>· Are agents integrated into your workflow?</div>
+    <div>· Can humans and agents collaborate?</div>
+  </div>
 </div>
 
 </div>
