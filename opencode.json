@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "memoryweb": {
+      "type": "remote",
+      "enabled": true,
+      "oauth": false,
+      "url": "https://memwww.netlify.app/mcp/58dae2bfd6865d638d243b3a/e1c2be21-337d-4ff0-8f82-9cc4171b8768",
+      "headers": {
+        "Authorization": "Bearer {env:MEMORYWEB_TOKEN}"
+      }
+    }
+  }
+}
