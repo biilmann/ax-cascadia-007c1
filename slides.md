@@ -1,11 +1,10 @@
 ---
 theme: seriph
-title: AX, Agent Experience
+title: Building for Humans in the Age of Agents
 info: |
-  ## AX, Agent Experience
-  Building products for agents
+  ## Building for Humans in the Age of Agents
 
-  Matt Biilmann · Netlify · CascadiaJS · 2026
+  Matt Biilmann · cofounder, Netlify · Render · Atlanta · 2026
 class: text-center
 highlighter: shiki
 drawings:
@@ -21,24 +20,26 @@ canvasWidth: 980
 ---
 
 <div class="absolute inset-0 -z-10 bg-gradient-to-br from-[#0a1628] via-[#001628] to-[#001a1f]" />
-<div class="absolute inset-0 -z-10 opacity-30" style="background: radial-gradient(circle at 20% 30%, rgba(0,173,181,0.4), transparent 50%), radial-gradient(circle at 80% 70%, rgba(78,205,196,0.3), transparent 50%);" />
+<div class="absolute inset-0 -z-10 opacity-30" style="background: radial-gradient(circle at 20% 30%, rgba(255,209,102,0.35), transparent 50%), radial-gradient(circle at 80% 70%, rgba(78,205,196,0.35), transparent 50%);" />
 
 <div class="flex flex-col items-center justify-center h-full text-center">
-  <img src="/img/s01_1.png" class="!h-12 !mb-10 invert opacity-90" alt="Netlify" />
-  <div class="mb-4 text-[#4ecdc4] uppercase tracking-[0.4em] text-sm">CascadiaJS</div>
-  <h1 class="!text-7xl !font-light !leading-tight !mb-4 bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent">
-    AX, Agent Experience
+  <img src="/img/s01_1.png" class="!h-12 !mb-8 invert opacity-90" alt="Netlify" />
+  <div class="mb-4 text-[#4ecdc4] uppercase tracking-[0.4em] text-sm">Render · Atlanta · 2026</div>
+  <h1 class="!text-6xl !font-light !leading-tight !mb-4">
+    Building for
+    <span class="bg-gradient-to-r from-[#ffd166] to-[#ff6b6b] bg-clip-text text-transparent font-medium">Humans</span><br/>
+    in the Age of
+    <span class="bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent font-medium">Agents</span>
   </h1>
-  <p class="!text-2xl !opacity-90 !font-light !mb-6">Building products for agents</p>
-  <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-8" />
-  <p class="!text-xl !opacity-80 !font-light">Matt Biilmann · 2026</p>
+  <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-7" />
+  <p class="!text-xl !opacity-80 !font-light">Matt Biilmann · cofounder, Netlify</p>
 </div>
 
 <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-xs opacity-50 animate-pulse">
   press <kbd class="px-2 py-1 bg-white/10 rounded">space</kbd> to begin
 </div>
 
-<!-- 10 years, front-end pseudo. Welcome. -->
+<!-- Welcome. Two words in that title: humans, and agents. Hold on to both. -->
 
 ---
 title: Netlify
@@ -58,321 +59,45 @@ transition: fade
   </div>
 </div>
 
----
-title: The Web
-layout: center
-class: text-center
-transition: fade
----
-
-<div class="absolute inset-0 -z-10 bg-gradient-to-br from-[#0a1628] via-[#001628] to-[#001a1f]" />
-
-<svg class="theweb-net absolute inset-0 -z-10 w-full h-full" viewBox="0 0 980 552" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-  <g class="theweb-links" stroke="#4ecdc4" stroke-width="1" fill="none">
-    <line x1="120" y1="110" x2="320" y2="80" />
-    <line x1="320" y1="80" x2="500" y2="180" />
-    <line x1="500" y1="180" x2="700" y2="110" />
-    <line x1="700" y1="110" x2="860" y2="220" />
-    <line x1="120" y1="110" x2="220" y2="300" />
-    <line x1="220" y1="300" x2="420" y2="360" />
-    <line x1="420" y1="360" x2="500" y2="180" />
-    <line x1="420" y1="360" x2="640" y2="420" />
-    <line x1="640" y1="420" x2="700" y2="110" />
-    <line x1="640" y1="420" x2="840" y2="470" />
-    <line x1="220" y1="300" x2="160" y2="490" />
-    <line x1="160" y1="490" x2="420" y2="360" />
-    <line x1="500" y1="180" x2="860" y2="220" />
-    <line x1="840" y1="470" x2="860" y2="220" />
-  </g>
-  <g class="theweb-nodes" fill="#4ecdc4">
-    <circle cx="120" cy="110" r="4" style="--d:0s" />
-    <circle cx="320" cy="80" r="3" style="--d:1.1s" />
-    <circle cx="500" cy="180" r="5" style="--d:0.4s" />
-    <circle cx="700" cy="110" r="4" style="--d:1.7s" />
-    <circle cx="860" cy="220" r="3" style="--d:0.9s" />
-    <circle cx="220" cy="300" r="4" style="--d:2.2s" />
-    <circle cx="420" cy="360" r="5" style="--d:0.2s" />
-    <circle cx="640" cy="420" r="4" style="--d:1.4s" />
-    <circle cx="160" cy="490" r="3" style="--d:2.6s" />
-    <circle cx="840" cy="470" r="4" style="--d:0.7s" />
-  </g>
-</svg>
-
-<div class="relative z-10">
-  <h1 class="!text-7xl !font-light !leading-tight bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent">
-    The Web
-  </h1>
-</div>
-
-<style>
-.theweb-net { opacity: 0.55; animation: theweb-drift 18s ease-in-out infinite alternate; }
-.theweb-links line { stroke-opacity: 0.18; animation: theweb-pulse 6s ease-in-out infinite; }
-.theweb-nodes circle {
-  filter: drop-shadow(0 0 6px rgba(78, 205, 196, 0.7));
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: theweb-node 4.5s ease-in-out infinite;
-  animation-delay: var(--d, 0s);
-}
-@keyframes theweb-drift {
-  from { transform: translate3d(-1.5%, -1%, 0) scale(1.02); }
-  to   { transform: translate3d(1.5%, 1%, 0) scale(1.06); }
-}
-@keyframes theweb-pulse {
-  0%, 100% { stroke-opacity: 0.10; }
-  50%      { stroke-opacity: 0.30; }
-}
-@keyframes theweb-node {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50%      { opacity: 1; transform: scale(1.35); }
-}
-</style>
+<!-- Remember this line. We come back to it at the end. -->
 
 ---
-title: CascadiaJS
-layout: center
-class: text-center
-transition: fade
----
-
-<video class="absolute inset-0 -z-20 w-full h-full object-cover" autoplay muted loop playsinline>
-  <source src="/img/video/cascadia-sizzle.mp4" type="video/mp4" />
-</video>
-<div class="absolute inset-0 -z-10 bg-gradient-to-b from-[#0a1628]/70 via-[#04141f]/60 to-[#0a1628]/85" />
-<div class="absolute inset-0 -z-10 opacity-40" style="background: radial-gradient(circle at 70% 18%, rgba(78,205,196,0.25), transparent 55%), radial-gradient(circle at 20% 30%, rgba(0,173,181,0.2), transparent 50%);" />
-
-<div class="relative z-10 flex flex-col items-center justify-center">
-  <div class="!text-sm !font-light tracking-[0.4em] uppercase text-[#4ecdc4] mb-5">Seattle · June 1–2, 2026</div>
-  <h1 class="!text-8xl !font-light !leading-none">
-    Cascadia<span class="font-semibold bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">JS</span>
-  </h1>
-  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-7" />
-  <p class="!text-xl !opacity-80 !font-light">A JavaScript conference for the Pacific Northwest</p>
-</div>
-
----
-title: Flying to Seattle
-layout: image
-image: /img/flight_1.jpg
-backgroundSize: cover
-class: text-white
-transition: fade
----
-
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-
-<div class="absolute bottom-12 left-12 z-10 text-left text-white">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">San Francisco → Seattle</div>
-  <div class="text-5xl font-light">Flying to CascadiaJS</div>
-</div>
-
----
-title: Rivian, in the snow
-layout: image
-image: /img/s04_1.jpg
-backgroundSize: cover
-class: text-white
----
-
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-<div class="absolute bottom-12 left-12 z-10">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">A car you drive</div>
-  <div class="text-5xl font-light">Drivers and Agents</div>
-</div>
-
----
-title: Hands-Free
+title: Introducing AX
 layout: image-right
-image: /img/s05_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-8">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">Driver-Assist</div>
-  <h2 class="!text-5xl !font-extralight !mb-6">
-    AI <span class="bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent font-medium">Assistance</span>
-  </h2>
-  <p class="text-xl opacity-70 font-light">
-    Lets us do <em class="text-[#4ecdc4] not-italic">much more</em>.
-  </p>
-</div>
-
----
-title: Robotaxi in San Francisco
-layout: image
-image: /img/s07_1.jpg
-backgroundSize: cover
----
-
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-<div class="absolute bottom-12 left-12 z-10 text-white">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#feca57] mb-2">No driver</div>
-  <div class="text-5xl font-light">Autonomous Agents</div>
-</div>
-
----
-title: AI Autonomy
-layout: center
-transition: slide-up
----
-
-<div class="text-center">
-  <div class="text-7xl font-extralight tracking-tight mb-4">
-    <span class="opacity-40">AI</span>
-    <span class="bg-gradient-to-r from-[#ff6b6b] to-[#feca57] bg-clip-text text-transparent">Autonomy</span>
-  </div>
-  <div class="text-2xl opacity-70 font-light">Lets us rethink what we do</div>
-  <div v-click class="mt-12 text-sm opacity-50 italic max-w-xl mx-auto">
-    Rethink the car. Rethink the road. Rethink the city.<br/>
-    The whole stack changes when the driver is no longer human.
-  </div>
-</div>
-
----
-title: Copilot in the IDE
-layout: image-right
-image: /img/s10_1.jpg
-backgroundSize: cover
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">Cruise control for code</div>
-  <h2 class="!text-4xl !font-light !mb-4">Copilot in the IDE</h2>
-  <p class="opacity-70 leading-relaxed">
-    The developer types. The tool finishes the line.
-  </p>
-</div>
-
----
-title: Build with an AI agent
-layout: image-right
-image: /img/s12_1.png
+image: /img/s29_1.png
 backgroundSize: contain
 ---
 
 <div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">AI Assistance</div>
-  <h2 class="!text-4xl !font-light !mb-4">Build with an<br/>AI agent</h2>
-  <p class="opacity-70">
-    Describe your idea. The agent codes and configures for you.
+  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">January 2025 · biilmann.blog</div>
+  <h2 class="!text-3xl !font-light !mb-4">Introducing AX:<br/>Why Agent Experience Matters</h2>
+  <p class="opacity-70 text-sm leading-relaxed">
+    Computers are no longer just deterministic machines that execute the transactions we ask them to do or schedule. They are becoming agents.
+  </p>
+  <p class="text-xs mt-5">
+    <a href="https://biilmann.blog/articles/introducing-ax/">biilmann.blog/articles/introducing-ax</a>
   </p>
 </div>
 
 ---
-title: 'AI Assistance: Lets us do much more'
-layout: default
----
-
-# AI Assistance: Lets us do much more
-
-<div class="grid grid-cols-2 gap-3 mt-6">
-  <img src="/img/s14_1.png" class="rounded-xl border border-white/10" />
-  <img src="/img/s15_1.png" class="rounded-xl border border-white/10" />
-</div>
-
-<div class="mt-6 text-center text-sm opacity-60">
-  Fundamentally shifts the <em class="text-[#4ecdc4] not-italic font-medium">build</em> vs <em class="text-[#feca57] not-italic font-medium">buy</em> equation.
-</div>
-
----
-title: The autonomy moment
-layout: image-right
-image: /img/s23_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#feca57] mb-3">From assistance → autonomy</div>
-  <h2 class="!text-3xl !font-light !mb-4">"I barely opened an IDE the last two weeks."</h2>
-  <p class="opacity-70 text-sm">
-    Even as he pushed lots of code.<br/>
-    Gergely Orosz, CLI + web + phone (!!) to prompt code.
-  </p>
-</div>
-
----
-title: Autonomous Coding Agents
-layout: image
-image: /img/openclaw.png
-backgroundSize: cover
----
-
-<div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
-<div class="absolute bottom-12 left-12 z-10 text-white">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#feca57] mb-2">openclaw.ai</div>
-  <div class="text-5xl font-light">Autonomous Coding Agents</div>
-</div>
-
----
-title: My Autonomous Agent
-layout: image
-image: /img/clawbot.jpg
-backgroundSize: cover
----
-
-<div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
-<div class="absolute bottom-12 left-12 z-10 text-white">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#feca57] mb-2">In the wild</div>
-  <div class="text-5xl font-light">My Autonomous Agent</div>
-</div>
-
----
-title: Autonomous Agents
-layout: default
----
-
-# Autonomous Agents
-
-<div class="grid grid-cols-2 gap-4 mt-6">
-  <div>
-    <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-2">Lead Researcher</div>
-    <img src="/img/s20_1.png" class="rounded-xl border border-white/10" />
-  </div>
-  <div>
-    <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-2">Agent Runs</div>
-    <img src="/img/s21_1.png" class="rounded-xl border border-white/10" />
-  </div>
-</div>
-
-<div class="mt-6 text-center text-base leading-snug max-w-3xl mx-auto opacity-90">
-  Autonomous cars make us rethink our <em class="text-[#4ecdc4] not-italic font-medium">cities</em>;<br/>
-  autonomous agents make us rethink our <em class="text-[#feca57] not-italic font-medium">platforms</em>.
-</div>
-
----
-title: 3 Billion Builders
-layout: default
----
-
-# 3 Billion Builders
-
-<div class="text-base opacity-80 mb-6">
-  Software becomes <em class="text-[#4ecdc4] not-italic font-medium">read / write</em> for everyone.
-</div>
-
-<div class="flex justify-center">
-  <img src="/img/s22_1.png" class="rounded-xl bg-white p-2 max-w-3xl" />
-</div>
-
-<!-- TAM for devtools. -->
-
----
-title: AX — Agent Experience
+title: AX — Defined
 layout: center
 class: text-center
 ---
 
-<div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-6">Chapter II</div>
-
-<div class="text-7xl font-extralight tracking-tight">
-  AX
-</div>
-
-<div class="text-3xl font-light opacity-80 mt-2 mb-12">Agent Experience</div>
-
-<div class="space-y-2 max-w-2xl mx-auto">
-  <div class="text-lg"><span class="text-[#4ecdc4] font-medium">Today:</span> AX is critical for infra and dev tools</div>
-  <div class="text-lg"><span class="text-[#feca57] font-medium">Tomorrow:</span> your products won't succeed without it</div>
+<div class="flex flex-col items-center justify-center h-full max-w-4xl mx-auto">
+  <div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-8">Agent Experience</div>
+  <blockquote class="!text-3xl !font-extralight !leading-snug italic text-left">
+    "We need to start focusing on AX or <span class="text-[#4ecdc4] not-italic font-light">"agent experience"</span> — the holistic experience AI agents will have as the
+    <span class="text-[#4ecdc4] not-italic font-light">user of a product or platform</span>."
+  </blockquote>
+  <div class="flex items-center gap-3 mt-10">
+    <img src="/img/s30_1.jpg" class="w-10 h-10 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
+    <div class="text-left">
+      <div class="text-sm opacity-80">Matt Biilmann</div>
+      <div class="text-xs opacity-50">Cofounder & CEO, Netlify · January 2025</div>
+    </div>
+  </div>
 </div>
 
 ---
@@ -404,107 +129,6 @@ layout: center
 </div>
 
 </div>
-
----
-title: Introducing AX
-layout: image-right
-image: /img/s29_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-3">biilmann.blog · Jan 28, 2025</div>
-  <h2 class="!text-3xl !font-light !mb-4">Introducing AX:<br/>Why Agent Experience Matters</h2>
-  <p class="opacity-70 text-sm leading-relaxed">
-    Computers are no longer just deterministic machines that execute the transactions we ask them to do or schedule. They are becoming agents.
-  </p>
-</div>
-
----
-title: AX — Defined
-layout: center
-class: text-center
----
-
-<div class="flex flex-col items-center justify-center h-full max-w-4xl mx-auto">
-  <div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-8">Agent Experience</div>
-  <blockquote class="!text-4xl !font-extralight !leading-snug italic">
-    "The holistic experience AI agents will have as the
-    <span class="text-[#4ecdc4] not-italic font-light">user of a product or platform</span>."
-  </blockquote>
-  <div class="flex items-center gap-3 mt-12">
-    <img src="/img/s30_1.jpg" class="w-10 h-10 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
-    <div class="text-left">
-      <div class="text-sm opacity-80">Matt Biilmann</div>
-      <div class="text-xs opacity-50">CEO, Netlify</div>
-    </div>
-  </div>
-</div>
-
----
-title: Traction — The industry is converging on AX
-layout: center
-class: text-center
----
-
-<div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-1">Traction</div>
-<h2 class="!text-3xl !font-extralight !mb-5">
-  The industry is converging on
-  <span class="bg-gradient-to-r from-[#4ecdc4] to-[#feca57] bg-clip-text text-transparent font-medium">AX</span>
-</h2>
-
-<div class="columns-3 gap-3 max-w-5xl mx-auto text-left [&>*]:mb-3">
-
-  <div class="break-inside-avoid rounded-xl border border-[#4ecdc4]/30 bg-[#4ecdc4]/10 p-4 rotate-1">
-    <div class="text-lg font-light leading-snug italic opacity-90 mb-3">
-      "The future will be driven by
-      <span class="text-[#4ecdc4] not-italic">AX</span>."
-    </div>
-    <div class="flex items-center gap-2">
-      <img src="/img/s31_2.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
-      <div>
-        <div class="text-xs opacity-80">Michael Grinich</div>
-        <div class="text-[10px] opacity-50">CEO, WorkOS</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="break-inside-avoid rounded-xl border border-white/10 bg-white/5 p-4 rotate-1">
-    <div class="text-sm font-light leading-snug italic opacity-90 mb-3">
-      "The most profound shift I've observed in eleven years —
-      <span class="text-[#4ecdc4] not-italic">the evolution from UX to AX</span>."
-    </div>
-    <div class="flex items-center gap-2">
-      <img src="/img/s32_1.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
-      <div>
-        <div class="text-xs opacity-80">John Maeda</div>
-        <div class="text-[10px] opacity-50">VP Eng, AI Platform — Microsoft</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="break-inside-avoid rounded-xl border border-white/10 bg-white/5 p-4 -rotate-1">
-    <div class="text-sm font-light leading-snug italic opacity-90 mb-3">
-      "You can't have great
-      <span class="text-[#4ecdc4] not-italic">DX</span>
-      if you don't have great
-      <span class="text-[#feca57] not-italic">AX</span>."
-    </div>
-    <div class="flex items-center gap-2">
-      <img src="/img/s33_2.jpg" class="w-8 h-8 rounded-full border border-[#4ecdc4]/40 flex-shrink-0" />
-      <div>
-        <div class="text-xs opacity-80">Dharmesh Shah</div>
-        <div class="text-[10px] opacity-50">CTO, HubSpot</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="break-inside-avoid rounded-xl border border-white/10 overflow-hidden rotate-1">
-    <img src="/img/tobin-south-tweet.png" class="w-full" />
-  </div>
-
-</div>
-
 ---
 title: How to AX?
 layout: center
@@ -672,10 +296,14 @@ layout: default
     <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">Access · Agent Auth</div>
     <div class="text-5xl font-light">Emerging Standards</div>
   </div>
-  <div class="flex-1 min-h-0 mt-6 flex items-center justify-center">
+  <div class="flex-1 min-h-0 mt-6 grid grid-cols-2 gap-4 items-center">
+    <img
+      src="/img/agentid-emerging-standards.png"
+      class="max-h-full w-full object-contain rounded-xl border border-white/10 shadow-2xl"
+    />
     <img
       src="/img/agentauth-emerging-standards.png"
-      class="max-h-full max-w-full object-contain rounded-xl border border-white/10 shadow-2xl"
+      class="max-h-full w-full object-contain rounded-xl border border-white/10 shadow-2xl"
     />
   </div>
 </div>
@@ -912,21 +540,6 @@ class: text-center
 <!-- Speaking of access, context, tools — and now where they all converge. -->
 
 ---
-title: AI teammates inside Linear
-layout: image-right
-image: /img/s69_1.png
-backgroundSize: contain
----
-
-<div class="flex flex-col h-full justify-center pr-4">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Linear · Agents</div>
-  <h2 class="!text-3xl !font-light !mb-4">Deploy AI teammates<br/>inside Linear.</h2>
-  <p class="opacity-70 text-sm">
-    Launch agent flows with external agents from apps like Linear, Notion, etc...
-  </p>
-</div>
-
----
 title: Build with an AI agent — in your workspace
 layout: image-right
 image: /img/s70_1.png
@@ -937,7 +550,7 @@ backgroundSize: contain
   <div class="text-xs uppercase tracking-[0.3em] text-[#a78bfa] mb-3">Netlify Agent Runners</div>
   <h2 class="!text-3xl !font-light !mb-4">Pick your agent.<br/>Pick your task.</h2>
   <p class="opacity-70 text-sm">
-    Claude Code · OpenAI Codex · Google Gemini.<br/>
+    Claude Code · OpenAI Codex · Google Gemini · OpenCode.<br/>
     Same project, same context, your choice of agent.
   </p>
 </div>
@@ -1008,19 +621,6 @@ layout: default
 </div>
 
 ---
-title: Closing — The Road Ahead
-layout: image
-image: /img/s80_1.jpg
-backgroundSize: cover
----
-
-<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-<div class="absolute bottom-12 left-12 z-10 text-white">
-  <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">The road ahead</div>
-  <div class="text-4xl font-light max-w-xl">As agents become autonomous and our whole team become builders, we need to reshape every part of our developer platforms</div>
-</div>
-
----
 title: Measuring AX
 layout: image-right
 image: /img/measuring-ax.png
@@ -1036,12 +636,423 @@ backgroundSize: contain
 </div>
 
 ---
+title: AXIS
+layout: center
+class: text-center
+---
+
+<div class="absolute inset-0 -z-10 opacity-40" style="background: radial-gradient(circle at 50% 35%, rgba(78,205,196,0.28), transparent 55%);" />
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-6">Open source · axis.run</div>
+
+  <div class="!text-8xl !font-extralight tracking-[0.15em] bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent">
+    AXIS
+  </div>
+
+  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-7" />
+
+  <p class="!text-xl !font-light !opacity-90 max-w-2xl">
+    Netlify's open source framework for evaluating Agent Experience.
+  </p>
+
+  <p v-click class="!text-2xl !font-light mt-6">
+    Think <span class="text-[#feca57]">Lighthouse</span> — but for agent experience.
+  </p>
+
+  <div v-click class="flex gap-3 mt-10 text-xs uppercase tracking-widest">
+    <div class="rounded-full border border-[#4ecdc4]/40 bg-[#4ecdc4]/10 px-4 py-2 text-[#4ecdc4]">Access</div>
+    <div class="rounded-full border border-[#feca57]/40 bg-[#feca57]/10 px-4 py-2 text-[#feca57]">Context</div>
+    <div class="rounded-full border border-[#ff6b6b]/40 bg-[#ff6b6b]/10 px-4 py-2 text-[#ff6b6b]">Tools</div>
+    <div class="rounded-full border border-[#a78bfa]/40 bg-[#a78bfa]/10 px-4 py-2 text-[#a78bfa]">Orchestration</div>
+  </div>
+</div>
+
+<!-- axis.run — run it against your own product before you leave Atlanta. -->
+
+---
+title: But who is AX for?
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="text-xs uppercase tracking-[0.4em] text-[#4ecdc4] mb-8">The question underneath</div>
+  <div class="!text-6xl !font-extralight tracking-tight">
+    But who is AX
+    <span class="bg-gradient-to-r from-[#ffd166] to-[#ff6b6b] bg-clip-text text-transparent font-medium">for?</span>
+  </div>
+</div>
+
+<!-- We've spent half an hour on how. Now: what for, and for whom. -->
+
+---
+title: A world for agents
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="absolute inset-0 -z-10 bg-black" />
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="text-white/50 text-sm uppercase tracking-[0.35em] mb-10">Are we building the web</div>
+  <div class="agentworld-lines text-white font-medium tracking-[-0.04em] leading-[1.05] !text-6xl">
+    <div>For agents.</div>
+    <div v-click class="opacity-80">To ship agents.</div>
+    <div v-click class="opacity-60">Automated by agents.</div>
+  </div>
+</div>
+
+<style>
+.agentworld-lines div { margin-bottom: 0.15em; }
+</style>
+
+<!-- Stark. Efficient. And entirely circular — agents, for agents, by agents. -->
+
+---
+title: A world for humans
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="absolute inset-0 -z-10" style="background: linear-gradient(140deg, #1a0f2e 0%, #2a1230 45%, #12232e 100%);" />
+<div class="absolute inset-0 -z-10 opacity-70" style="background: radial-gradient(circle at 18% 20%, rgba(255,209,102,0.30), transparent 50%), radial-gradient(circle at 82% 30%, rgba(255,107,107,0.28), transparent 50%), radial-gradient(circle at 50% 95%, rgba(78,205,196,0.30), transparent 55%);" />
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="text-white/70 text-sm uppercase tracking-[0.35em] mb-8">Or a web</div>
+
+  <div class="!text-6xl !font-light !leading-tight bg-gradient-to-r from-[#ffd166] via-[#ff8fa3] to-[#4ecdc4] bg-clip-text text-transparent">
+    For humans.
+  </div>
+  <div v-click class="!text-5xl !font-light !leading-tight mt-3 text-white">
+    To connect with humans.
+  </div>
+  <div v-click class="!text-2xl !font-light mt-8 max-w-3xl opacity-90 leading-relaxed">
+    With agents, <span class="text-[#ffd166]">through</span> agents, and in
+    <span class="text-[#4ecdc4]">collaboration</span> with agents.
+  </div>
+</div>
+
+<!-- Same technology. Completely different world. -->
+
+---
+title: Bits and Atoms
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full w-full">
+  <div class="!text-2xl !font-light opacity-80 mb-2">We live in a world of</div>
+  <div class="!text-6xl !font-extralight tracking-tight mb-10">
+    <span class="bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">Bits</span>
+    <span class="opacity-40 mx-2">and</span>
+    <span class="bg-gradient-to-r from-[#ffd166] to-[#ff6b6b] bg-clip-text text-transparent">Atoms</span>
+  </div>
+
+  <div class="grid grid-cols-2 gap-10 w-full max-w-3xl">
+    <div class="rounded-2xl border border-[#ffd166]/25 bg-[#ffd166]/5 p-5 flex flex-col items-center">
+      <svg class="ba-atom" viewBox="0 0 120 120" width="120" height="120" aria-hidden="true">
+        <g fill="none" stroke="#ffd166" stroke-width="1.5" opacity="0.75">
+          <ellipse cx="60" cy="60" rx="46" ry="18" />
+          <ellipse cx="60" cy="60" rx="46" ry="18" transform="rotate(60 60 60)" />
+          <ellipse cx="60" cy="60" rx="46" ry="18" transform="rotate(120 60 60)" />
+        </g>
+        <circle cx="60" cy="60" r="7" fill="#ff6b6b" />
+      </svg>
+      <div class="text-xs uppercase tracking-[0.3em] text-[#ffd166] mt-3">Atoms</div>
+    </div>
+    <div class="rounded-2xl border border-[#4ecdc4]/25 bg-[#4ecdc4]/5 p-5 flex flex-col items-center">
+      <div class="ba-bits font-mono text-[#4ecdc4] text-sm leading-[1.35] h-[120px] flex flex-col justify-center">
+        <div style="--d:0s">01001000 01110101</div>
+        <div style="--d:0.4s">01101101 01100001</div>
+        <div style="--d:0.8s">01101110 01110011</div>
+        <div style="--d:1.2s">00100000 01100001</div>
+        <div style="--d:1.6s">01110010 01100101</div>
+      </div>
+      <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mt-3">Bits</div>
+    </div>
+  </div>
+</div>
+
+<style>
+.ba-atom { animation: ba-spin 24s linear infinite; }
+@keyframes ba-spin { to { transform: rotate(360deg); } }
+.ba-bits div { animation: ba-flicker 3.2s ease-in-out infinite; animation-delay: var(--d, 0s); }
+@keyframes ba-flicker {
+  0%, 100% { opacity: 0.25; }
+  50%      { opacity: 0.95; }
+}
+</style>
+
+---
+title: Native to atoms
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full w-full">
+  <div class="!text-4xl !font-light !leading-snug mb-10 max-w-3xl">
+    We are native to the world of
+    <span class="bg-gradient-to-r from-[#ffd166] to-[#ff6b6b] bg-clip-text text-transparent font-medium">atoms</span>
+  </div>
+
+  <div class="grid grid-cols-2 gap-10 w-full max-w-3xl items-center">
+    <div class="rounded-2xl border-2 border-[#ffd166]/50 bg-[#ffd166]/10 p-6 shadow-2xl shadow-[#ffd166]/10">
+      <div class="text-5xl mb-3">👋</div>
+      <div class="text-xs uppercase tracking-[0.3em] text-[#ffd166]">Atoms</div>
+      <div class="text-sm opacity-80 mt-2">Bodies. Rooms. Cities. Weather. Each other.</div>
+    </div>
+    <div class="rounded-2xl border border-white/10 p-6 opacity-25">
+      <div class="text-5xl mb-3 font-mono text-[#4ecdc4]">01</div>
+      <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4]">Bits</div>
+      <div class="text-sm opacity-80 mt-2">A place we visit through glass.</div>
+    </div>
+  </div>
+</div>
+
+---
+title: Agents are native to bits
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full w-full">
+  <div class="!text-4xl !font-light !leading-snug mb-10 max-w-3xl">
+    Agents are native to the world of
+    <span class="bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent font-medium">bits</span>
+  </div>
+
+  <div class="grid grid-cols-2 gap-10 w-full max-w-3xl items-center">
+    <div class="rounded-2xl border border-white/10 p-6 opacity-25">
+      <div class="text-5xl mb-3">👋</div>
+      <div class="text-xs uppercase tracking-[0.3em] text-[#ffd166]">Atoms</div>
+      <div class="text-sm opacity-80 mt-2">A place they only ever read about.</div>
+    </div>
+    <div class="rounded-2xl border-2 border-[#4ecdc4]/50 bg-[#4ecdc4]/10 p-6 shadow-2xl shadow-[#4ecdc4]/10">
+      <div class="text-5xl mb-3 font-mono text-[#4ecdc4]">01</div>
+      <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4]">Bits</div>
+      <div class="text-sm opacity-80 mt-2">APIs. Docs. Tools. Tokens. Each other.</div>
+    </div>
+  </div>
+</div>
+
+<!-- They live where we visit. -->
+
+---
+title: Bits run atoms
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full w-full">
+  <div class="!text-3xl !font-light !leading-snug mb-8 max-w-3xl">
+    But more and more, the world of
+    <span class="text-[#4ecdc4]">bits</span>
+    runs the world of
+    <span class="text-[#ffd166]">atoms</span>
+  </div>
+
+  <div class="flex items-center justify-center gap-5 w-full max-w-3xl">
+    <div class="flex-1 rounded-2xl border-2 border-[#4ecdc4]/50 bg-[#4ecdc4]/10 p-5">
+      <div class="text-xs uppercase tracking-[0.3em] text-[#4ecdc4] mb-2">Bits</div>
+      <div class="text-sm opacity-80">Software, models, agents</div>
+    </div>
+    <svg class="ba-arrow flex-none" width="120" height="26" viewBox="0 0 120 26" aria-hidden="true">
+      <line x1="0" y1="13" x2="104" y2="13" stroke="#4ecdc4" stroke-width="2" stroke-dasharray="7 7" />
+      <polygon points="104,5 120,13 104,21" fill="#ffd166" />
+    </svg>
+    <div class="flex-1 rounded-2xl border-2 border-[#ffd166]/50 bg-[#ffd166]/10 p-5">
+      <div class="text-xs uppercase tracking-[0.3em] text-[#ffd166] mb-2">Atoms</div>
+      <div class="text-sm opacity-80">Grids, logistics, markets, medicine</div>
+    </div>
+  </div>
+
+  <div v-click class="mt-10 text-base opacity-70 max-w-3xl">
+    How we move. How we're paid. How we're treated. How we're informed.
+  </div>
+</div>
+
+<style>
+.ba-arrow line { animation: ba-flow 1.2s linear infinite; }
+@keyframes ba-flow { to { stroke-dashoffset: -14; } }
+</style>
+
+---
+title: For agents, by agents
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="absolute inset-0 -z-10" style="background: linear-gradient(160deg, #0b0b0f 0%, #14060a 55%, #050507 100%);" />
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="!text-4xl !font-extralight !leading-snug max-w-3xl opacity-90">
+    If the digital world becomes
+  </div>
+  <div class="!text-6xl !font-light !leading-tight mt-4 text-[#ff6b6b]">
+    for agents, by agents
+  </div>
+</div>
+
+---
+title: Run by it
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="absolute inset-0 -z-10" style="background: linear-gradient(160deg, #0b0b0f 0%, #14060a 55%, #050507 100%);" />
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="!text-5xl !font-extralight !leading-snug opacity-90">
+    We no longer run a society
+  </div>
+  <div v-click class="!text-5xl !font-medium !leading-snug mt-6 text-[#ff6b6b]">
+    We are run by it
+  </div>
+</div>
+
+<!-- This is the stake. Not developer convenience. -->
+
+---
+title: Every product has to build for agents
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="!text-4xl !font-light !leading-snug max-w-3xl">
+    Any digital product has to
+    <span class="bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent font-medium">build for agents</span>
+  </div>
+
+  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-9" />
+
+  <div class="flex items-baseline gap-4 !text-3xl !font-extralight">
+    <span class="text-[#4ecdc4] font-medium">AX</span>
+    <span class="opacity-60">is what</span>
+    <span class="opacity-80">UX</span>
+    <span class="opacity-60">and</span>
+    <span class="opacity-80">DX</span>
+    <span class="opacity-60">was</span>
+  </div>
+</div>
+
+---
+title: Imagination, agency, purpose
+layout: center
+class: text-center
+---
+
+<div class="absolute inset-0 -z-10 opacity-50" style="background: radial-gradient(circle at 25% 25%, rgba(255,209,102,0.22), transparent 55%), radial-gradient(circle at 75% 75%, rgba(78,205,196,0.22), transparent 55%);" />
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="!text-4xl !font-light !leading-snug max-w-3xl">
+    Humans have
+    <span class="text-[#ffd166]">imagination</span>,
+    <span class="text-[#ff8fa3]">agency</span>
+    and
+    <span class="text-[#4ecdc4]">purpose</span>.
+  </div>
+
+  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-9" />
+
+  <div class="!text-3xl !font-light !leading-snug max-w-3xl opacity-90">
+    Netlify exists to turn
+    <span class="text-[#ffd166]">imagination</span>
+    into
+    <span class="font-medium bg-gradient-to-r from-[#4ecdc4] to-[#00adb5] bg-clip-text text-transparent">reality</span>.
+  </div>
+</div>
+
+---
+title: Build a better digital world
+layout: center
+class: text-center
+---
+
+<div class="absolute inset-0 -z-10 opacity-60" style="background: radial-gradient(circle at 20% 15%, rgba(255,209,102,0.22), transparent 50%), radial-gradient(circle at 80% 25%, rgba(255,107,107,0.20), transparent 50%), radial-gradient(circle at 50% 100%, rgba(78,205,196,0.26), transparent 55%);" />
+
+<div class="flex flex-col items-center justify-center h-full max-w-4xl mx-auto">
+  <div class="!text-2xl !font-light !leading-snug opacity-90">
+    Let's give our agents
+    <span class="text-[#4ecdc4]">access</span>,
+    <span class="text-[#feca57]">context</span>,
+    <span class="text-[#ff6b6b]">tools</span>
+    and
+    <span class="text-[#a78bfa]">orchestration</span>.
+  </div>
+
+  <div class="!text-3xl !font-light !leading-snug mt-6">
+    But let's do it to create better digital worlds
+  </div>
+
+  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-9" />
+
+  <div class="!text-4xl !font-light !leading-[1.25] whitespace-nowrap">
+    For humans <span class="verb-rotator"><span class="verb-track"><span>transacting with</span><span>connecting with</span><span>entertaining</span><span>educating</span><span>empowering</span><span>leading</span><span>transacting with</span></span></span> other humans
+  </div>
+</div>
+
+<style>
+.verb-rotator {
+  display: inline-block;
+  height: 1.25em;
+  line-height: 1.25em;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+.verb-track {
+  display: flex;
+  flex-direction: column;
+  animation: verb-roll 12s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+.verb-track > span {
+  height: 1.25em;
+  line-height: 1.25em;
+  white-space: nowrap;
+  font-weight: 500;
+  background: linear-gradient(90deg, #ffd166, #ff8fa3 55%, #4ecdc4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes verb-roll {
+  0%,     13.00% { transform: translateY(0); }
+  16.67%, 29.67% { transform: translateY(-1.25em); }
+  33.33%, 46.33% { transform: translateY(-2.5em); }
+  50.00%, 63.00% { transform: translateY(-3.75em); }
+  66.67%, 79.67% { transform: translateY(-5em); }
+  83.33%, 96.33% { transform: translateY(-6.25em); }
+  100%           { transform: translateY(-7.5em); }
+}
+</style>
+
+<!-- Not for agents. Through agents — for each other. -->
+
+---
 title: Thank you
 layout: center
 class: text-center
 ---
 
-<div class="flex flex-col h-full items-center justify-center gap-8">
-  <img src="/img/cascadia-conference-thank-you.jpg" class="max-h-[60vh] rounded-2xl shadow-2xl object-contain" />
-  <div class="text-7xl font-extralight tracking-tight">Thank you</div>
+<div class="absolute inset-0 -z-10 opacity-40" style="background: radial-gradient(circle at 30% 30%, rgba(255,209,102,0.25), transparent 55%), radial-gradient(circle at 70% 70%, rgba(78,205,196,0.25), transparent 55%);" />
+
+<div class="flex flex-col h-full items-center justify-center">
+  <img src="/img/s01_1.png" class="!h-10 !mb-10 invert opacity-80" alt="Netlify" />
+
+  <div class="!text-7xl !font-extralight tracking-tight bg-gradient-to-r from-white via-[#4ecdc4] to-white bg-clip-text text-transparent">
+    Thank you
+  </div>
+
+  <div class="w-28 h-px bg-gradient-to-r from-transparent via-[#4ecdc4] to-transparent my-9" />
+
+  <div class="flex flex-col items-center gap-3 text-lg font-light">
+    <a href="https://biilmann.blog">biilmann.blog</a>
+    <a href="https://x.com/biilmann">@biilmann</a>
+  </div>
 </div>
